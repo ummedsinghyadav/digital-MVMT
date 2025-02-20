@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital MVMT</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" type="text/css" href="mobile.css"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Allerta&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
@@ -16,14 +17,57 @@
 	<link href="https://fonts.googleapis.com/css2?family=Allerta&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
- 	<!-- Header Section Start-->
-    <header class="header">
-        <div class="container">
-           	<img class="site_logo" src="img/DIGITAL_mvmt.svg" alt="Digital MVMT Logo">
-            <nav class="nav">
-                <a href="#" class="call_to_btn"><span class="text_call_btn">Contact Us <span> </a>
-            </nav>
+   <!-- Header Section Start-->
+      <header class="header">
+        <div class="header_wrp hidden-mb ">
+        	<div class="logo_menu">
+        		<a href="index.html">
+	           <img class="site_logo" src="img/DIGITAL_mvmt.svg" alt="Digital MVMT Logo">
+	       		</a>
+	           <div class="head_menu">
+	           	 <div class="dropdown">
+		            <button class="menu_button"><span>Solutions</span> <img src="img/drop.svg"> </button>
+		            <div class="dropdown-content">
+		                <a href="Set-Up.html">Set Up</a>
+		                <a href="Manage.html">Manage</a>
+		                <a href="Grow.html">Grow</a>
+		                <a href="landing-page.html">Landing Page Design</a>
+		                <a href="ongoing.html">Ongoing CRO</a>
+		                <a href="contact-us.html">Contact</a>
+			         </div>
+		           </div>
+		       </div>
+		   </div>
+	            <nav class="nav desktop_callto">
+	                   <a href="contact-us.html" class="call_to_btn"><span class="text_call_btn">Contact Us <span> </a>
+	            </nav>
+        	</div>
+        <div class="mobile_header show-desktop">
+        	<div class="site_logo">
+        		<a href="index.html">
+        		 <img class="site_logo" src="img/mobile_logo.png" alt="Digital MVMT Logo">
+        		 <a href="index.html">
+        		</div>
+        	<div class="contact_us_btn">
+ 					<a href="contact-us.html" class="call_to_btn">Contact Us </a>
+        	</div>
+        		<div class="menu_navigate">
+ 					<img class="site_logo" src="img/Button-Img.svg" alt="Digital MVMT Logo">
+        		</div>
         </div>
+        <div class='menu_mobile_show'>
+			 <div class="head_menu">
+			 	<h3>Solutions</h3>
+	             <div class="dropdown-content">
+		                <a href="Set-Up.html">Set Up</a>
+		                <a href="Manage.html">Manage</a>
+		                <a href="Grow.html">Grow</a>
+		                <a href="landing-page.html">Landing Page Design</a>
+		                <a href="ongoing.html">Ongoing CRO</a>
+		                <a href="contact-us.html">Contact</a>
+			         </div>
+	          </div>
+		</div>
     </header>
     <!-- Header Section  End -->
 
@@ -35,7 +79,7 @@
 	        <p>Let's collaborate to boost your conversions.</p>
 	    </div>
         <div class="form_container">
-		    <form action="#" method="POST">
+		   <form action="contact.php" method="POST">
 		    	<div class="form_group_wrp ">
 			        <div class="form-group width-50">
 			            <label for="name">Your name</label>
@@ -58,12 +102,13 @@
 		        </div>
 		        <div class="btn_submit">
 			        <button type="submit" class="submit-btn">
-			            <span class="text_btn"> LET'S CHAT</span><span class="action_btn"><span>
+			            <span class="text_btn"> LET'S CHAT</span><span class="action_btn"></span>
 	                </span></span>
 			        </button>
 			    </div>
 		    </form>
         </div>
+
     </section>
     <!-- contact Us Section End -->
 
@@ -71,22 +116,22 @@
     <footer class="footer">
      	<div class="container_wrp">
 	        <div class="footer-logo">
-	            <img src="img/logo.svg" alt="Logo">
+	            <img src="img/Footerlogo.png" alt="Logo">
 	        </div>
         	<hr>
 	        <div class="footer-columns">
 	            <div class="footer-column">
 	                <h4>Company</h4>
 	                <ul>
-	                    <li><a href="/about.html">About</a></li>
-	                    <li><a href="/Contact-Us.html">Contact Us</a></li>
+	                    <li><a href="about.html">About</a></li>
+	                    <li><a href="contact-us.html">Contact Us</a></li>
 	                </ul>
 	            </div>
 	            <div class="footer-column">
 	                <h4>Solutions</h4>
 	                <ul>
-	                    <li><a href="/Landing-page">Design</a></li>
-	                    <li><a href="/Ongoing.html">Optimize</a></li>
+	                    <li><a href="Landing-page">Design</a></li>
+	                    <li><a href="Ongoing.html">Optimize</a></li>
 	                </ul>
 	            </div>
 	            <div class="footer-column">
@@ -96,13 +141,37 @@
 	                    <li><a href="#">Privacy Policy</a></li>
 	                </ul>
 	            </div>
+	             <div class="footer-column">
+	                <h4>Support</h4>
+	                <ul>
+	                    <li><a href="mailto:contact@digitalmvmt.com">contact@digitalmvmt.com</a></li>
+	                </ul>
+	            </div>
+
 	        </div>
 	        <hr>
 	        <div class="footer-bottom">
 	            &copy; 2025 Digital MVMT. All rights reserved.
 	        </div>
-	    </div>
+	    </div>  
     </footer>
+
 	<!-- Footer End-->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript">
+$(document).ready(function() {
+    $('.menu_navigate').on('click', function(event) {
+        event.stopPropagation(); // Prevent click from reaching document
+        $('.menu_mobile_show').toggleClass('on').toggle(); // Toggle class and show/hide
+    });
+
+    $(document).on('click touchend', function(event) {
+        if (!$(event.target).closest('.menu_mobile_show, .menu_navigate').length) {
+            $('.menu_mobile_show').hide().removeClass('on');
+        }
+    });
+});
+
+</script>
 </body>
 </html>

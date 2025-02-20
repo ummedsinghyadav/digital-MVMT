@@ -1024,6 +1024,24 @@ a.call_to_btn span {
 	border-radius: 10px;
 }
 
+.learn-more-btn a {
+    display: flex;
+    padding: 20px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    text-decoration: none;
+    border-radius: 14.705px;
+    background: #FED600;
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.learn-more-btn {
+    margin-bottom: 35px;
+}
+
 /* how it works  */
 .howit-works {
 	max-width: 1420px;

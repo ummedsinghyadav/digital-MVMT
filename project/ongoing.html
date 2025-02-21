@@ -1,568 +1,651 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital MVMT</title>
-	<link rel="icon" href="img/Favicon.png" type="image/png" sizes="32x32">
-<link rel="icon" href="img/Favicon.png" type="image/png" sizes="16x16">
-<link rel="apple-touch-icon" href="img/Favicon.png">
-    <link rel="stylesheet" href="styles.css">
-    <!-- <link rel="stylesheet" type="text/css" href="mobile.css"> -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Allerta&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Allerta&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Allerta&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-</head>
-<body>
-     <!-- Header Section Start-->
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Digital MVMT</title>
+      <link rel="icon" href="img/Favicon.png" type="image/png" sizes="32x32">
+      <link rel="icon" href="img/Favicon.png" type="image/png" sizes="16x16">
+      <link rel="apple-touch-icon" href="img/Favicon.png">
+      <link rel="stylesheet" href="styles.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Allerta&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Allerta&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Allerta&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+   </head>
+   <body>
+      <!-- Header Section Start-->
       <header class="header">
-        <div class="header_wrp hidden-mb ">
-        	<div class="logo_menu">
-        		<a href="index.html">
-	           <img class="site_logo" src="img/DIGITAL_mvmt.svg" alt="Digital MVMT Logo">
-	       		</a>
-	           <div class="head_menu">
-	           	 <div class="dropdown">
-		            <button class="menu_button"><span>Solutions</span> <img src="img/drop.svg"> </button>
-		            <div class="dropdown-content">
-		                <a href="Set-Up.html">Set Up</a>
-		                <a href="Manage.html">Manage</a>
-		                <a href="Grow.html">Grow</a>
-		                <a href="landing-page.html">Landing Page Design</a>
-		                <a href="ongoing.html">Ongoing CRO</a>
-		                <a href="contact-us.html">Contact</a>
-			         </div>
-		           </div>
-		       </div>
-		   </div>
-	            <nav class="nav desktop_callto">
-	                   <a href="contact-us.html" class="call_to_btn"><span class="text_call_btn">Contact Us <span> </a>
-	            </nav>
-        	</div>
-        <div class="mobile_header show-desktop">
-        	<div class="site_logo">
-        		<a href="index.html">
-        		 <img class="site_logo" src="img/mobile_logo.png" alt="Digital MVMT Logo">
-        		 <a href="index.html">
-        		</div>
-        	<div class="contact_us_btn">
- 					<a href="contact-us.html" class="call_to_btn">Contact Us </a>
-        	</div>
-        		<div class="menu_navigate">
- 					<img class="site_logo" src="img/Button-Img.svg" alt="Digital MVMT Logo">
-        		</div>
-        </div>
-        <div class='menu_mobile_show'>
-			 <div class="head_menu">
-			 	<h3>Solutions</h3>
-	             <div class="dropdown-content">
-		                <a href="Set-Up.html">Set Up</a>
-		                <a href="Manage.html">Manage</a>
-		                <a href="Grow.html">Grow</a>
-		                <a href="landing-page.html">Landing Page Design</a>
-		                <a href="ongoing.html">Ongoing CRO</a>
-		                <a href="contact-us.html">Contact</a>
-			         </div>
-	          </div>
-		</div>
-    </header>
-    <!-- Header Section  End -->
-
-
-    <!-- Banner Section Start-->
-    <section class="banner ongoing_bg ongoing_color">
-        <div class="container ">
+         <div class="header_wrp hidden-mb ">
+            <div class="logo_menu">
+               <a href="index.html">
+               <img class="site_logo" src="img/DIGITAL_mvmt.png" alt="Digital MVMT Logo">
+               </a>
+               <div class="head_menu">
+                  <a href="about.html" class="header_link">About Us</a>
+                  <div class="dropdown">
+                     <button class="menu_button"><span>Solutions</span> <img src="img/drop.svg"> </button>
+                     <div class="dropdown-content">
+                        <a href="Set-Up.html">Set Up</a>
+                        <a href="Manage.html">Manage</a>
+                        <a href="Grow.html">Grow</a>
+                        <a href="landing-page.html">Landing Page Design</a>
+                        <a href="ongoing.html">Ongoing CRO</a>
+                     </div>
+                  </div>
+                  <a href="contact-us.html" class="header_link">Contact Us</a>
+               </div>
+            </div>
+            <nav class="nav desktop_callto">
+               <a href="contact-us.html" class="call_to_btn"><span class="text_call_btn">Contact Us <span> </a>
+            </nav>
+         </div>
+         <div class="mobile_header show-desktop">
+            <div class="site_logo">
+               <a href="index.html">
+               <img class="site_logo" src="img/DIGITAL_mvmt.png" alt="Digital MVMT Logo">
+               <a href="index.html">
+            </div>
+            <div class="contact_us_btn">
+            <a href="contact-us.html" class="call_to_btn">Contact Us </a>
+            </div>
+            <div class="menu_navigate">
+               <img class="site_logo" src="img/Button-Img.svg" alt="Digital MVMT Logo">
+            </div>
+         </div>
+         <div class='menu_mobile_show'>
+            <div class="head_menu">
+               <a href="about.html" class="header_link">About Us</a>
+               <h3>Solutions</h3>
+               <div class="dropdown-content">
+                  <a href="Set-Up.html">Set Up</a>
+                  <a href="Manage.html">Manage</a>
+                  <a href="Grow.html">Grow</a>
+                  <a href="landing-page.html">Landing Page Design</a>
+                  <a href="ongoing.html">Ongoing CRO</a>
+               </div>
+               <a href="contact-us.html">Contact</a>
+            </div>
+         </div>
+      </header>
+      <!-- Header Section  End -->
+      <!-- Banner Section Start-->
+      <section class="banner ongoing_bg ongoing_color">
+         <div class="container ">
             <div class="banner-content">
-                <span class="badge">CONVERSION RATE OPTIMIZATION</span>
-                <h1>We handle everything, </br>so you can focus on scaling.</h1>
-                <div class="content_sub">
-	                <p> Unlock your store’s full revenue potential with A/B testing and expert conversion optimization.</p>
-	                <a href="contact-us.html" class="btn">
-	                	<span class="action_btn" >Contact Us<span>
-	                </a>
-	                <ul class="benefits">
-	                    <li><svg xmlns="http://www.w3.org/2000/svg" width="17" height="19" viewBox="0 0 17 19" fill="none">
-						  <path fill-rule="evenodd" clip-rule="evenodd" d="M7.10303 17.9452C6.55703 17.9452 6.03803 17.6842 5.70203 17.2322L1.06903 11.0102C0.472027 10.2102 0.616027 9.06122 1.39003 8.44422C2.16403 7.82622 3.27403 7.97522 3.87003 8.77622L6.90203 12.8472L13.005 2.05222C13.498 1.17922 14.581 0.886223 15.424 1.39622C16.267 1.90622 16.551 3.02722 16.058 3.89922L8.63003 17.0392C8.33303 17.5652 7.80303 17.9032 7.21603 17.9422C7.17803 17.9452 7.14003 17.9452 7.10303 17.9452Z" fill="#009E8E"/>
-						</svg> Maximize Revenue at Every Level</li>
-						                    <li><svg xmlns="http://www.w3.org/2000/svg" width="17" height="19" viewBox="0 0 17 19" fill="none">
-						  <path fill-rule="evenodd" clip-rule="evenodd" d="M7.10303 17.9452C6.55703 17.9452 6.03803 17.6842 5.70203 17.2322L1.06903 11.0102C0.472027 10.2102 0.616027 9.06122 1.39003 8.44422C2.16403 7.82622 3.27403 7.97522 3.87003 8.77622L6.90203 12.8472L13.005 2.05222C13.498 1.17922 14.581 0.886223 15.424 1.39622C16.267 1.90622 16.551 3.02722 16.058 3.89922L8.63003 17.0392C8.33303 17.5652 7.80303 17.9032 7.21603 17.9422C7.17803 17.9452 7.14003 17.9452 7.10303 17.9452Z" fill="#009E8E"/>
-						</svg> Higher Conversions, Bigger Profits</li>
-						                    <li><svg xmlns="http://www.w3.org/2000/svg" width="17" height="19" viewBox="0 0 17 19" fill="none">
-						  <path fill-rule="evenodd" clip-rule="evenodd" d="M7.10303 17.9452C6.55703 17.9452 6.03803 17.6842 5.70203 17.2322L1.06903 11.0102C0.472027 10.2102 0.616027 9.06122 1.39003 8.44422C2.16403 7.82622 3.27403 7.97522 3.87003 8.77622L6.90203 12.8472L13.005 2.05222C13.498 1.17922 14.581 0.886223 15.424 1.39622C16.267 1.90622 16.551 3.02722 16.058 3.89922L8.63003 17.0392C8.33303 17.5652 7.80303 17.9032 7.21603 17.9422C7.17803 17.9452 7.14003 17.9452 7.10303 17.9452Z" fill="#009E8E"/>
-						</svg> Smart, Data-Driven Growth</li>
-	                </ul>
-            	</div>
-            </div> 
-        </div>
-    </section>
-    <!-- Banner Section End -->
-
-    <!-- Slide Section Start-->
-    <section class="marquee_wrp ">
-    	<div class="grid-container">
-    		<div class="Marquee">
-			  	<div class="Marquee-content">
-					<div class="Marquee-tag">
-						<img src="img/Frame2.png" alt="Profile Image" class="image_ads">
-					</div>
-					<div class="Marquee-tag">
-						<img src="img/Smart-ring.png" alt="Profile Image" class="image_ads">
-					</div>
-					<div class="Marquee-tag">
-						<img src="img/ab-stimulator.png" alt="Profile Image" class="image_ads">
-					</div>
-					<div class="Marquee-tag">
-						<img src="img/mini-plugin.png" alt="Profile Image" class="image_ads">
-					</div>
-					<div class="Marquee-tag">
-						<img src="img/adjustable.png" alt="Profile Image" class="image_ads">
-					</div>
-					<div class="Marquee-tag">
-						<img src="img/dashcm.png" alt="Profile Image" class="image_ads">
-					</div>
-					<div class="Marquee-tag">
-						<img src="img/backbrace.png" alt="Profile Image" class="image_ads">
-					</div>
-					<div class="Marquee-tag">
-						<img src="img/teeth-whitening.png" alt="Profile Image" class="image_ads">
-					</div>
-					<div class="Marquee-tag">
-						<img src="img/3ddoodlepen.png" alt="Profile Image" class="image_ads">
-					</div>
-					<div class="Marquee-tag">
-						<img src="img/fitness-tracker.png" alt="Profile Image" class="image_ads">
-					</div>
-				</div>
-			</div>
-		</div>
-    </section>
-    <!-- Slide Section End-->
-
-    <!-- How it Works Section Start-->
-    <section class="howit-works ongoing_color">
-	    <div class="heading_hed">
-	    	<span class="badge">HOW IT WORKS</span>
-	        <h2>See real results in just 3 steps</h2>
-	    </div>
-	    <div class="howit_list">
-	        <div class="howit_item">
-	        	<img src="img/step1.png">
-	        	<div class="number_step">1</div>
-	            <h3>Book your free <br>exploration</h3>
-	            <p>Get a complete audit of <br> all of your metrics and data.</p>
-	        </div>
-	        <div class="howit_item">
-	        	<img src="img/step2.png">
-	        	<div class="number_step">2</div>
-	            <h3>Get your <br>personalized plan</h3>
-	            <p>We'll customize a pathway to<br> growth based on our findings.</p>
-	        </div>
-	        <div class="howit_item">
-	        	<img src="img/step3.png">
-	        	<div class="number_step last">3</div>
-	            <h3>Scale & expand <br>your business</h3>
-	            <p>Optimize content, execute <br>tests, and drive profit growth.</p>
-	        </div>
-	    </div>
-	</section>
-	<!-- How it Works Section End-->
-
-	<!-- Why You Need Section Start-->
-    <section class="marketing_wrp ongoing_color">
-    	<div class="heading_hed">
-    		<span class="badge">WHY YOU NEED US</span>
-    	</div>
-     	<div class="marketing-container">
-	        <div class="marketing-text">
-	            <h1>You're leaving revenue on the table—here’s how to fix it</h1>
-	            <p>Many businesses focus on driving traffic but miss the critical step of optimizing for conversions. Without a data-driven approach, your site isn’t reaching its full potential.</p>
-	            <p>Why your site isn’t converting as it should:</p>
-	            <ul class="liststyle">
-	                <li><strong>Lack of personalization:</strong> Generic layouts fail to capture your audience’s attention because they don’t speak to their specific needs.</li>
-	                <li><strong> No conversion strategy:</strong>  Many templates ignore proven conversion tactics, resulting in missed opportunities.</li>
-	                <li><strong> Poor user experience:</strong> Without a focus on intuitive, user-friendly design, visitors tend to leave without taking action. </li>
-	                
-	            </ul>
-	            <p>Stop losing potential revenue. Optimize your site with data-backed strategies that turn more clicks into customers and maximize your ROI.</p>
-	        </div>
-	        <div class="marketing-image">
-	            <img src="img/ongoging.png" alt="Marketing Maze Visualization">
-	        </div>
-	    </div>
-    </section>
-    <!-- Why You Need Section End-->
-
-    <!-- Profit Growth Section Start-->
-    <section class="service_section ongoing_color profit_growth">
-    	<div class="service_wrp">
-	        <div class="solution_card">
-	        	<h3>Continuous optimization for lasting profit growth</h3>
-	        	<p>Our ongoing optimization strategy ensures your website evolves with market trends, user behavior, and performance metrics—maximizing conversions and profitability over time.</p>
-	        	<p><b>How we drive sustainable growth:</b></p>
-	        	<div class="solution_list">
-		        	<ul class="solution_item liststyle">
-		        		<li>📊 Advanced data analysis: We uncover key opportunities by diving deep into your analytics to better understand your audience and optimize accordingly.</li>
-		        		<li>🎨 High-converting design and copywriting: Our experts ensure that your site not only looks great but also drives more conversions.</li>
-		        		<li>🔄 Continuous A/B testing and optimization: Through rigorous testing, we fine-tune your site’s performance to maximize ROI.</li>
-
-		        	</ul>
-		        </div>
-		        <p>Partnering with us isn’t just about improving your site—it’s about investing in long-term, scalable growth that directly impacts your bottom line.</p>
-<p>📞 Book your free exploration call today.</p>
-	        </div>
-	       
-    	</div>
-    </section>
-    <!-- Profit Growth Section End-->
-
-    <!-- Our Solution Start-->
-    <section class="service_section ongoing_color">
-    	<div class="service_wrp">
-    		<span class="badge">LANDING PAGE SOLUTION</span>
-	        <h2>Optimized conversion rates are within reach</h2>
-	        <p>Take the definitive landing page design approach.</p>
-	        <div class="solution_card">
-	        	<h3>Ongoing-CRO and AB testing</h3>
-	        	<p>Maximize the value of your traffic. With higher visitor volume, we implement nuanced, data-driven refinements to increase revenue per session through strategic A/B testing.</p>
-	        	<div class="solution_list">
-		        	<ul class="solution_item">
-		        		<li><img src="img/greencheck.png"> A/B Testing</li>
-		        		<li><img src="img/greencheck.png"> In-depth Data Analysis</li>
-		        		<li><img src="img/greencheck.png"> Ongoing Research & Strategy</li>
-		        		<li><img src="img/greencheck.png"> Full Funnel Optimization</li>
-
-		        	</ul>
-		        	<ul class="solution_item">
-		        		<li><img src="img/greencheck.png"> Fully Managed CRO Services</li>
-		        		<li><img src="img/greencheck.png"> Pricing & Offer Testing</li>
-		        		<li><img src="img/greencheck.png"> Survey & Review Analysis</li>
-		        		<li><img src="img/greencheck.png"> Expert Design & Development</li>
-		        	</ul>
-		        </div>
-		        <div class="card_btn">
-		        	<a href="contact-us.html" class="call_to_btn"><span class="text_call_btn">Contact Us <span> </a>
-		        </div>
-	        </div>
-	       
-    	</div>
-    </section>
-    <!-- Our Solution End-->
-
-    <!-- Your Team Start-->
-    <section class="your_team ongoing_color">
-    	<div class="team_wrp">
-    		<span class="badge">Your Team</span>
-	        <h2>Your full-stack team of experts are here</h2>
-	        <p>You get access to the CRO team in the business</p>
-	        <div class="team_business">
-	        	<div class="business_list">
-		        	<ul class="business_item">
-		        		<li><span><img src="img/analyst.png"> </span><p>Analyst</p></li>
-		        		<li><span><img src="img/cro.png"> </span><p>CRO Expert </p></li>
-		        		<li><span><img src="img/designer.png"> </span><p>Designer </p></li>
-		        		<li><span><img src="img/copywriter.png"> </span><p>Copywriter </p></li>
-		        		<li><span><img src="img/developer.png"></span> <p>Developer </p></li>
-		        		<li><span><img src="img/qa.png"> </span><p>Quality Assurance </p></li>
-		        	</ul>
-		        </div>
-	        </div>
-    	</div>
-    </section>
-    <!-- Your Team End-->
-
-    <!-- Comprehensive CRO Section Start-->
-    <section class="your_team ongoing_color">
-    	<div class="cro_solution_wrp">
-    		<span class="badge">WHAT'S INCLUDED</span>
-	        <h2>A comprehensive CRO solution</h2>
-	        <p>We handle every aspect of CRO so you can focus on scaling your business while maximizing profits.</p>
-	        <div class="cro_solution_business">
-	        	<div class="cro_solution_list">
-		        	<ul class="cro_solution_item">
-		        		<li><span><img src="img/Monthly-testing.png"> </span><p>Analyst</p></li>
-		        		<li><span><img src="img/Customer-surveys.png"> </span><p>CRO Expert </p></li>
-		        		<li><span><img src="img/User-testing.png"> </span><p>Designer </p></li>
-		        		<li><span><img src="img/Review-mining.png"> </span><p>Copywriter </p></li>
-		        		<li><span><img src="img/Advanced-tracking-software.png"></span> <p>Developer </p></li>
-		        		<li><span><img src="img/Sitespeed-optimization.png"> </span><p>Quality Assurance </p></li>
-		        		<li><span><img src="img/Quantitative.png"></span> <p>Developer </p></li>
-		        		<li><span><img src="img/Competitor-analysis.png"> </span><p>Quality Assurance </p></li>
-		        		<li><span><img src="img/Comprehensive-site.png"> </span><p>Comprehensive site walkthroughs</p></li>
-		        		<li><span><img src="img/Ongoing-research.png"> </span><p>Ongoing research </p></li>
-		        		<li><span><img src="img/Reporting.png"> </span><p>Weekly performance Reporting </p></li>
-		        		<li><span><img src="img/strategy.png"> </span><p>Offer strategy and ideas </p></li>
-		        		<li><span><img src="img/landing-page.png"></span> <p>Dedicated landing pages </p></li>
-		        		<li><span><img src="img/uandcross.png"> </span><p>Upsell and cross-sell implementation </p></li>
-		        		<li><span><img src="img/Checkout-optimization.png"></span> <p>Checkout optimization </p></li>
-		        		<li><span><img src="img/ccfc.png"> </span><p>Continuous customer feedback collection </p></li>
-		        	</ul>
-		        </div>
-	        </div>
-    	</div>
-    </section>
-    <!-- Comprehensive CRO Section End-->
-
-    <!-- Comparison MVMT Solution Start-->
-    <section class="ongoing_color">
-    	<div class="comparison-section">
-			<div class="heading_hed">
-		    	<span class="badge">WHY CHOOSE CONVERSIONWISE</span>
-		        <h2>Get ready to scale smarter</h2>
-		        <p> See more results for less overhead</p>
-		     </div>
-	         <div class="comparison-list">
-	            <div class="comparison-item">
-		            <ul>
-		            	<h3 class="feature-title left-align">Metric</h3>
-		                <li>Lower Financial Cost</li>
-		                <li>Minimal Guesswork</li>
-		                <li>Quick Results</li>
-		                <li>Minimized Ongoing Costs</li>
-		                <li>Easily Scalable</li>
-		                <li>High ROI</li>
-		                <li>No Traffic Dependency</li>
-		            </ul>
-		        </div>
-		        <div class="comparison-item active-list">
-		            <div class="our_logo mobile_hide">  <img src="img/logo.svg" alt="Logo"></div>
-	            <div class="our_logo show-desktop">  <img src="img/witelogo.png" alt="Logo"></div>
-		            <ul>
-						<li class="list_item ">
-						<span class="check"><img src="img/check.svg" alt="check"></span></li>
-						<li class="list_item ">
-						<span class="check"><img src="img/check.svg" alt="check"></span></li>
-						<li class="list_item ">
-						<span class="check"><img src="img/check.svg" alt="check"></span></li>
-						<li class="list_item ">
-						<span class="check"><img src="img/check.svg" alt="check"></span></li>
-						<li class="list_item ">
-						<span class="check"><img src="img/check.svg" alt="check"></span></li>
-						<li class="list_item ">
-						<span class="check"><img src="img/check.svg" alt="check"></span></li>
-						<li class="list_item ">
-							<span class="check"><img src="img/check.svg" alt="check"></span></li>
-		            </ul>
-		        </div>
-		        <div class="comparison-item">
-		            <h3>Media Buying</h3>
-		            <ul>
-		               <li class="list_item cross"><img src="img/cross.svg" alt="cross"></li>
-		                 <li class="list_item check"><img src="img/check.svg" alt="cross"></li>
-		                   <li class="list_item cross"><img src="img/cross.svg" alt="cross"></li>
-		                    <li class="list_item cross"><img src="img/cross.svg" alt="cross"></li>
-		                 <li class="list_item check"><img src="img/check.svg" alt="cross"></li>
-		                    <li class="list_item check"><img src="img/check.svg" alt="cross"></li>
-		                     <li class="list_item cross"><img src="img/cross.svg" alt="cross"></li>
-		                
-		            </ul>
-		        </div>
-		        <div class="comparison-item">
-		            <h3>New Ad Creatives</h3>
-		            <ul>
-		                <li class="list_item cross"><img src="img/cross.svg" alt="cross"></li>
-		                 <li class="list_item check"><img src="img/check.svg" alt="cross"></li>
-		                   <li class="list_item cross"><img src="img/cross.svg" alt="cross"></li>
-		                    <li class="list_item cross"><img src="img/cross.svg" alt="cross"></li>
-		                 <li class="list_item check"><img src="img/check.svg" alt="cross"></li>
-		                    <li class="list_item cross"><img src="img/cross.svg" alt="cross"></li>
-		                 <li class="list_item check"><img src="img/check.svg" alt="cross"></li>
-		            </ul>
-		        </div>
-	        </div>
-	        <div class="call_action_compar">
-	        	<a href="contact-us.html" class="call_to_btn"><span class="text_call_btn">Contact Us<span> </a>
-				<ul class="benefits">
-	                <li><svg xmlns="http://www.w3.org/2000/svg" width="17" height="19" viewBox="0 0 17 19" fill="none">
-					  <path fill-rule="evenodd" clip-rule="evenodd" d="M7.10303 17.9452C6.55703 17.9452 6.03803 17.6842 5.70203 17.2322L1.06903 11.0102C0.472027 10.2102 0.616027 9.06122 1.39003 8.44422C2.16403 7.82622 3.27403 7.97522 3.87003 8.77622L6.90203 12.8472L13.005 2.05222C13.498 1.17922 14.581 0.886223 15.424 1.39622C16.267 1.90622 16.551 3.02722 16.058 3.89922L8.63003 17.0392C8.33303 17.5652 7.80303 17.9032 7.21603 17.9422C7.17803 17.9452 7.14003 17.9452 7.10303 17.9452Z" fill="#009E8E"/>
-					</svg> Results-driven frameworks</li>
-					                    <li><svg xmlns="http://www.w3.org/2000/svg" width="17" height="19" viewBox="0 0 17 19" fill="none">
-					  <path fill-rule="evenodd" clip-rule="evenodd" d="M7.10303 17.9452C6.55703 17.9452 6.03803 17.6842 5.70203 17.2322L1.06903 11.0102C0.472027 10.2102 0.616027 9.06122 1.39003 8.44422C2.16403 7.82622 3.27403 7.97522 3.87003 8.77622L6.90203 12.8472L13.005 2.05222C13.498 1.17922 14.581 0.886223 15.424 1.39622C16.267 1.90622 16.551 3.02722 16.058 3.89922L8.63003 17.0392C8.33303 17.5652 7.80303 17.9032 7.21603 17.9422C7.17803 17.9452 7.14003 17.9452 7.10303 17.9452Z" fill="#009E8E"/>
-					</svg> Quick turnaround</li>
-					                    <li><svg xmlns="http://www.w3.org/2000/svg" width="17" height="19" viewBox="0 0 17 19" fill="none">
-					  <path fill-rule="evenodd" clip-rule="evenodd" d="M7.10303 17.9452C6.55703 17.9452 6.03803 17.6842 5.70203 17.2322L1.06903 11.0102C0.472027 10.2102 0.616027 9.06122 1.39003 8.44422C2.16403 7.82622 3.27403 7.97522 3.87003 8.77622L6.90203 12.8472L13.005 2.05222C13.498 1.17922 14.581 0.886223 15.424 1.39622C16.267 1.90622 16.551 3.02722 16.058 3.89922L8.63003 17.0392C8.33303 17.5652 7.80303 17.9032 7.21603 17.9422C7.17803 17.9452 7.14003 17.9452 7.10303 17.9452Z" fill="#009E8E"/>
-					</svg> Increase CVR, AOV and LTV</li>
-	            </ul>
-	        </div>
-	    </div>
-    </section>
-    <!-- Comparison MVMT Solution End-->
-
-    <!-- Why Choose Solution Start-->
-    <section class="choose-container ongoing_color">
-        <h2>We capture your untapped revenue</h2>
-        <p> Find out why our clients trust us to run their strategy.</p>
-	        <div class="features">
-	            <div class="feature">
-	                 <img class="why_img_icon" src="img/business.png">
-	                <p>Tailored business strategies designed for growth</p>
-	            </div>
-	            <div class="feature">
-	                 <img class="why_img_icon" src="img/support.png">
-	                <p>Dedicated support at every stage of the process</p>
-	            </div>
-	            <div class="feature">
-	               <img class="why_img_icon" src="img/Comprehensive.png">
-	                <p>Comprehensive, end-to-end business solutions</p>
-	            </div>
-	            <div class="feature">
-	                 <img class="why_img_icon" src="img/development.png">
-	                <p>Effective for businesses at any stage of development</p>
-	            </div>
-	        </div>
-    </section>
-    <!-- Why Choose Solution Start-->
-
-    <!-- Testimonials Solution Start-->
-    <section class="testimonials ">
-    	<div class="testimonials_wrp">
-    		<span class="badge">TESTIMONIALS</span>
-	        <h2>Together, we can capture your untapped revenue</h2>
-	        <p>Find out why our clients trust us to run their CRO.</p>
-	        <div class="testimonials-container">
-	            <div class="testimonial-card">
-	                <div class="stars">
-	                		<span>★</span>
-						<span>★</span>
-						<span>★</span>
-						<span>★</span>
-						<span>★</span>
-	                </div>
-	                <h4>Sarah Lewis</h4>
-	                <p><strong>They understood exactly what I was struggling with</strong></p>
-	                <p>Digital MVMT’s A/B testing has been a dream come true for us. They don’t just guess what works, they test everything! Thanks to their data-driven approach, we’ve optimized our website and ads for maximum conversions. The results are beyond what we had hoped for!</p>
-	                <a href="#" class="read-more">Read More</a>
-	            </div>
-	            <div class="testimonial-card">
-	                 <div class="stars">
-	                		<span>★</span>
-						<span>★</span>
-						<span>★</span>
-						<span>★</span>
-						<span>★</span>
-	                </div>
-	                <h4>Ava Brooks</h4>
-	                <p><strong>Excited to launch thanks to their support</strong></p>
-	                <p>The service was amazing! The team helped me every step of the way, and now I’m ready to launch my brand. I truly appreciate all their help.</p>
-	                <a href="#" class="read-more">Read More</a>
-	            </div>
-	            <div class="testimonial-card">
-	                <div class="stars">
-						<span>★</span>
-						<span>★</span>
-						<span>★</span>
-						<span>★</span>
-						<span>★</span>
-	                </div>
-	                <h4>James Lawson</h4>
-	                <p><strong>Above-and-beyond customer service</strong></p>
-	                <p>The customer service was outstanding! I got top-notch support for everything I needed, and they made my LLC application process smooth and stress-free. Thank you all so much!</p>
-	                <a href="#" class="read-more">Read More</a>
-	            </div>
-	            <div class="testimonial-card">
-	                  <div class="stars">
-	                		<span>★</span>
-						<span>★</span>
-						<span>★</span>
-						<span>★</span>
-						<span>★</span>
-	                </div>
-	                <h4>Michael Carter</h4>
-	                <p><strong>Couldn’t have done it without them</strong></p>
-	                <p>Their help was absolutely essential in getting my business off the ground. I can’t imagine where we’d be without MVMT’s support!</p>
-	                <a href="#" class="read-more">Read More</a>
-	            </div>
-	            <div class="testimonial-card">
-	                  <div class="stars">
-	                		<span>★</span>
-						<span>★</span>
-						<span>★</span>
-						<span>★</span>
-						<span>★</span>
-	                </div>
-	                <h4>Olivia Bennett</h4>
-	                <p><strong>Exactly the support I needed</strong></p>
-	                <p>Digital MVMT provided the perfect support when I needed it most. The representative was truly passionate about their work, which made all the difference. I would highly recommend working with them!</p>
-	                <a href="#" class="read-more">Read More</a>
-	            </div>
-	            <div class="testimonial-card">
-	                 <div class="stars">
-	                		<span>★</span>
-						<span>★</span>
-						<span>★</span>
-						<span>★</span>
-						<span>★</span>
-	                </div>
-	                <h4>Mason Clarke</h4>
-	                <p><strong>Professional, insightful, and easy to work with</strong></p>
-	                <p>Working with Digital MVMT made everything so much easier! Their team was not only professional but also a pleasure to collaborate with. They took care of everything seamlessly, making the entire process stress-free. I wouldn’t hesitate to return as a client and would gladly recommend their services to others.</p>
-	                <a href="#" class="read-more">Read More</a>
-	            </div>
-	        </div>
-        </div>
-    </section>
-    <!-- Testimonials Solution End-->
-    <!-- Body Part End-->
-
-  <!-- Footer Start-->
-    <footer class="footer">
-     	<div class="container_wrp">
-	        <div class="footer-logo">
-	            <img src="img/Footerlogo.png" alt="Logo">
-	        </div>
-        	<hr>
-	        <div class="footer-columns">
-	            <div class="footer-column">
-	                <h4>Company</h4>
-	                <ul>
-	                    <li><a href="about.html">About</a></li>
-	                    <li><a href="contact-us.html">Contact Us</a></li>
-	                </ul>
-	            </div>
-	            <div class="footer-column">
-	                <h4>Solutions</h4>
-	                <ul>
-	                   <li><a href="/Landing-page">Design</a></li>
-<li><a href="/Ongoing">Ongoing CRO</a></li>
-<li><a href="/Set-Up">Set Up</a></li>
-<li><a href="/Manage">Manage</a></li>
-<li><a href="/Grow">Grow</a></li>
-	                </ul>
-	            </div>
-	            <div class="footer-column">
-	                <h4>Legal</h4>
-	                <ul>
-	                    <li><a href="terms-conditions">Terms and Conditions</a></li>
-<li><a href="privacy-policy">Privacy Policy</a></li>
-	                </ul>
-	            </div>
-	        </div>
-	        <hr>
-	        <div class="footer-bottom">
-	            &copy; 2025 Digital MVMT. All rights reserved.
-	        </div>
-	    </div>  
-    </footer>
-
-	<!-- Footer End-->
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-	<script type="text/javascript">
-$(document).ready(function() {
-    $('.menu_navigate').on('click', function(event) {
-        event.stopPropagation(); // Prevent click from reaching document
-        $('.menu_mobile_show').toggleClass('on').toggle(); // Toggle class and show/hide
-    });
-
-    $(document).on('click touchend', function(event) {
-        if (!$(event.target).closest('.menu_mobile_show, .menu_navigate').length) {
-            $('.menu_mobile_show').hide().removeClass('on');
-        }
-    });
-});
-
-</script>
-</body>
+               <span class="badge">CONVERSION RATE OPTIMIZATION</span>
+               <h1>We handle everything, </br>so you can focus on scaling.</h1>
+               <div class="content_sub">
+                  <p> Unlock your store’s full revenue potential with A/B testing and expert conversion optimization.</p>
+                  <a href="contact-us.html" class="btn">
+                  <span class="action_btn" >Contact Us<span>
+                  </a>
+                  <ul class="benefits">
+                     <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="19" viewBox="0 0 17 19" fill="none">
+                           <path fill-rule="evenodd" clip-rule="evenodd" d="M7.10303 17.9452C6.55703 17.9452 6.03803 17.6842 5.70203 17.2322L1.06903 11.0102C0.472027 10.2102 0.616027 9.06122 1.39003 8.44422C2.16403 7.82622 3.27403 7.97522 3.87003 8.77622L6.90203 12.8472L13.005 2.05222C13.498 1.17922 14.581 0.886223 15.424 1.39622C16.267 1.90622 16.551 3.02722 16.058 3.89922L8.63003 17.0392C8.33303 17.5652 7.80303 17.9032 7.21603 17.9422C7.17803 17.9452 7.14003 17.9452 7.10303 17.9452Z" fill="#009E8E"/>
+                        </svg>
+                        Maximize Revenue at Every Level
+                     </li>
+                     <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="19" viewBox="0 0 17 19" fill="none">
+                           <path fill-rule="evenodd" clip-rule="evenodd" d="M7.10303 17.9452C6.55703 17.9452 6.03803 17.6842 5.70203 17.2322L1.06903 11.0102C0.472027 10.2102 0.616027 9.06122 1.39003 8.44422C2.16403 7.82622 3.27403 7.97522 3.87003 8.77622L6.90203 12.8472L13.005 2.05222C13.498 1.17922 14.581 0.886223 15.424 1.39622C16.267 1.90622 16.551 3.02722 16.058 3.89922L8.63003 17.0392C8.33303 17.5652 7.80303 17.9032 7.21603 17.9422C7.17803 17.9452 7.14003 17.9452 7.10303 17.9452Z" fill="#009E8E"/>
+                        </svg>
+                        Higher Conversions, Bigger Profits
+                     </li>
+                     <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="19" viewBox="0 0 17 19" fill="none">
+                           <path fill-rule="evenodd" clip-rule="evenodd" d="M7.10303 17.9452C6.55703 17.9452 6.03803 17.6842 5.70203 17.2322L1.06903 11.0102C0.472027 10.2102 0.616027 9.06122 1.39003 8.44422C2.16403 7.82622 3.27403 7.97522 3.87003 8.77622L6.90203 12.8472L13.005 2.05222C13.498 1.17922 14.581 0.886223 15.424 1.39622C16.267 1.90622 16.551 3.02722 16.058 3.89922L8.63003 17.0392C8.33303 17.5652 7.80303 17.9032 7.21603 17.9422C7.17803 17.9452 7.14003 17.9452 7.10303 17.9452Z" fill="#009E8E"/>
+                        </svg>
+                        Smart, Data-Driven Growth
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Banner Section End -->
+      <!-- Slide Section Start-->
+      <section class="marquee_wrp">
+         <div class="grid-container">
+            <div class="slick-carousel-ads">
+               <div class="marquee-tag"><img src="img/Frame2.png" alt="Frame2" class="image_ads"></div>
+               <div class="marquee-tag"><img src="img/Smart-ring.png" alt="Smart Ring" class="image_ads"></div>
+               <div class="marquee-tag"><img src="img/ab-stimulator.png" alt="Ab Stimulator" class="image_ads"></div>
+               <div class="marquee-tag"><img src="img/mini-plugin.png" alt="Mini Plugin" class="image_ads"></div>
+               <div class="marquee-tag"><img src="img/adjustable.png" alt="Adjustable" class="image_ads"></div>
+               <div class="marquee-tag"><img src="img/dashcm.png" alt="Dash Cam" class="image_ads"></div>
+               <div class="marquee-tag"><img src="img/backbrace.png" alt="Back Brace" class="image_ads"></div>
+               <div class="marquee-tag"><img src="img/teeth-whitening.png" alt="Teeth Whitening" class="image_ads"></div>
+               <div class="marquee-tag"><img src="img/3ddoodlepen.png" alt="3D Doodle Pen" class="image_ads"></div>
+               <div class="marquee-tag"><img src="img/fitness-tracker.png" alt="Fitness Tracker" class="image_ads"></div>
+            </div>
+         </div>
+      </section>
+      <!-- Slide Section End-->
+      <!-- How it Works Section Start-->
+      <section class="howit-works ongoing_color">
+         <div class="heading_hed">
+            <span class="badge">HOW IT WORKS</span>
+            <h2>See real results in just 3 steps</h2>
+         </div>
+         <div class="howit_list">
+            <div class="howit_item">
+               <img src="img/step1.png">
+               <div class="number_step">1</div>
+               <h3>Book your free <br>exploration</h3>
+               <p>Get a complete audit of <br> all of your metrics and data.</p>
+            </div>
+            <div class="howit_item">
+               <img src="img/step2.png">
+               <div class="number_step">2</div>
+               <h3>Get your <br>personalized plan</h3>
+               <p>We'll customize a pathway to<br> growth based on our findings.</p>
+            </div>
+            <div class="howit_item">
+               <img src="img/step3.png">
+               <div class="number_step last">3</div>
+               <h3>Scale & expand <br>your business</h3>
+               <p>Optimize content, execute <br>tests, and drive profit growth.</p>
+            </div>
+         </div>
+      </section>
+      <!-- How it Works Section End-->
+      <!-- Why You Need Section Start-->
+      <section class="marketing_wrp ongoing_color">
+         <div class="heading_hed">
+            <span class="badge">WHY YOU NEED US</span>
+         </div>
+         <div class="marketing-container">
+            <div class="marketing-text">
+               <h1>You're leaving revenue on the table—here’s how to fix it</h1>
+               <p>Many businesses focus on driving traffic but miss the critical step of optimizing for conversions. Without a data-driven approach, your site isn’t reaching its full potential.</p>
+               <p>Why your site isn’t converting as it should:</p>
+               <ul class="liststyle">
+                  <li><strong>Lack of personalization:</strong> Generic layouts fail to capture your audience’s attention because they don’t speak to their specific needs.</li>
+                  <li><strong> No conversion strategy:</strong>  Many templates ignore proven conversion tactics, resulting in missed opportunities.</li>
+                  <li><strong> Poor user experience:</strong> Without a focus on intuitive, user-friendly design, visitors tend to leave without taking action. </li>
+               </ul>
+               <p>Stop losing potential revenue. Optimize your site with data-backed strategies that turn more clicks into customers and maximize your ROI.</p>
+            </div>
+            <div class="marketing-image">
+               <img src="img/ongoging.png" alt="Marketing Maze Visualization">
+            </div>
+         </div>
+      </section>
+      <!-- Why You Need Section End-->
+      <!-- Profit Growth Section Start-->
+      <section class="service_section ongoing_color profit_growth">
+         <div class="service_wrp">
+            <div class="solution_card">
+               <h3>Continuous optimization for lasting profit growth</h3>
+               <p>Our ongoing optimization strategy ensures your website evolves with market trends, user behavior, and performance metrics—maximizing conversions and profitability over time.</p>
+               <p><b>How we drive sustainable growth:</b></p>
+               <div class="solution_list">
+                  <ul class="solution_item liststyle">
+                     <li>📊 Advanced data analysis: We uncover key opportunities by diving deep into your analytics to better understand your audience and optimize accordingly.</li>
+                     <li>🎨 High-converting design and copywriting: Our experts ensure that your site not only looks great but also drives more conversions.</li>
+                     <li>🔄 Continuous A/B testing and optimization: Through rigorous testing, we fine-tune your site’s performance to maximize ROI.</li>
+                  </ul>
+               </div>
+               <p>Partnering with us isn’t just about improving your site—it’s about investing in long-term, scalable growth that directly impacts your bottom line.</p>
+               <p>📞 Book your free exploration call today.</p>
+            </div>
+         </div>
+      </section>
+      <!-- Profit Growth Section End-->
+      <!-- Our Solution Start-->
+      <section class="service_section ongoing_color">
+         <div class="service_wrp">
+            <span class="badge">LANDING PAGE SOLUTION</span>
+            <h2>Optimized conversion rates are within reach</h2>
+            <p>Take the definitive landing page design approach.</p>
+            <div class="solution_card">
+               <h3>Ongoing-CRO and AB testing</h3>
+               <p>Maximize the value of your traffic. With higher visitor volume, we implement nuanced, data-driven refinements to increase revenue per session through strategic A/B testing.</p>
+               <div class="solution_list">
+                  <ul class="solution_item">
+                     <li><img src="img/greencheck.png"> A/B Testing</li>
+                     <li><img src="img/greencheck.png"> In-depth Data Analysis</li>
+                     <li><img src="img/greencheck.png"> Ongoing Research & Strategy</li>
+                     <li><img src="img/greencheck.png"> Full Funnel Optimization</li>
+                  </ul>
+                  <ul class="solution_item">
+                     <li><img src="img/greencheck.png"> Fully Managed CRO Services</li>
+                     <li><img src="img/greencheck.png"> Pricing & Offer Testing</li>
+                     <li><img src="img/greencheck.png"> Survey & Review Analysis</li>
+                     <li><img src="img/greencheck.png"> Expert Design & Development</li>
+                  </ul>
+               </div>
+               <div class="card_btn">
+                  <a href="contact-us.html" class="call_to_btn"><span class="text_call_btn">Contact Us <span> </a>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Our Solution End-->
+      <!-- Your Team Start-->
+      <section class="your_team ongoing_color">
+         <div class="team_wrp">
+            <span class="badge">Your Team</span>
+            <h2>Your full-stack team of experts are here</h2>
+            <p>You get access to the CRO team in the business</p>
+            <div class="team_business">
+               <div class="business_list">
+                  <ul class="business_item">
+                     <li>
+                        <span><img src="img/analyst.png"> </span>
+                        <p>Analyst</p>
+                     </li>
+                     <li>
+                        <span><img src="img/cro.png"> </span>
+                        <p>CRO Expert </p>
+                     </li>
+                     <li>
+                        <span><img src="img/designer.png"> </span>
+                        <p>Designer </p>
+                     </li>
+                     <li>
+                        <span><img src="img/copywriter.png"> </span>
+                        <p>Copywriter </p>
+                     </li>
+                     <li>
+                        <span><img src="img/developer.png"></span> 
+                        <p>Developer </p>
+                     </li>
+                     <li>
+                        <span><img src="img/qa.png"> </span>
+                        <p>Quality Assurance </p>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Your Team End-->
+      <!-- Comprehensive CRO Section Start-->
+      <section class="your_team ongoing_color">
+         <div class="cro_solution_wrp">
+            <span class="badge">WHAT'S INCLUDED</span>
+            <h2>A comprehensive CRO solution</h2>
+            <p>We handle every aspect of CRO so you can focus on scaling your business while maximizing profits.</p>
+            <div class="cro_solution_business">
+               <div class="cro_solution_list">
+                  <ul class="cro_solution_item">
+                     <li>
+                        <span><img src="img/Monthly-testing.png"> </span>
+                        <p>Analyst</p>
+                     </li>
+                     <li>
+                        <span><img src="img/Customer-surveys.png"> </span>
+                        <p>CRO Expert </p>
+                     </li>
+                     <li>
+                        <span><img src="img/User-testing.png"> </span>
+                        <p>Designer </p>
+                     </li>
+                     <li>
+                        <span><img src="img/Review-mining.png"> </span>
+                        <p>Copywriter </p>
+                     </li>
+                     <li>
+                        <span><img src="img/Advanced-tracking-software.png"></span> 
+                        <p>Developer </p>
+                     </li>
+                     <li>
+                        <span><img src="img/Sitespeed-optimization.png"> </span>
+                        <p>Quality Assurance </p>
+                     </li>
+                     <li>
+                        <span><img src="img/Quantitative.png"></span> 
+                        <p>Developer </p>
+                     </li>
+                     <li>
+                        <span><img src="img/Competitor-analysis.png"> </span>
+                        <p>Quality Assurance </p>
+                     </li>
+                     <li>
+                        <span><img src="img/Comprehensive-site.png"> </span>
+                        <p>Comprehensive site walkthroughs</p>
+                     </li>
+                     <li>
+                        <span><img src="img/Ongoing-research.png"> </span>
+                        <p>Ongoing research </p>
+                     </li>
+                     <li>
+                        <span><img src="img/Reporting.png"> </span>
+                        <p>Weekly performance Reporting </p>
+                     </li>
+                     <li>
+                        <span><img src="img/strategy.png"> </span>
+                        <p>Offer strategy and ideas </p>
+                     </li>
+                     <li>
+                        <span><img src="img/landing-page.png"></span> 
+                        <p>Dedicated landing pages </p>
+                     </li>
+                     <li>
+                        <span><img src="img/uandcross.png"> </span>
+                        <p>Upsell and cross-sell implementation </p>
+                     </li>
+                     <li>
+                        <span><img src="img/Checkout-optimization.png"></span> 
+                        <p>Checkout optimization </p>
+                     </li>
+                     <li>
+                        <span><img src="img/ccfc.png"> </span>
+                        <p>Continuous customer feedback collection </p>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Comprehensive CRO Section End-->
+      <!-- Comparison MVMT Solution Start-->
+      <section class="ongoing_color">
+         <div class="comparison-section">
+            <div class="heading_hed">
+               <span class="badge">WHY CHOOSE CONVERSIONWISE</span>
+               <h2>Get ready to scale smarter</h2>
+               <p> See more results for less overhead</p>
+            </div>
+            <div class="comparison-list">
+               <div class="comparison-item">
+                  <ul>
+                     <h3 class="feature-title left-align">Metric</h3>
+                     <li>Lower Financial Cost</li>
+                     <li>Minimal Guesswork</li>
+                     <li>Quick Results</li>
+                     <li>Minimized Ongoing Costs</li>
+                     <li>Easily Scalable</li>
+                     <li>High ROI</li>
+                     <li>No Traffic Dependency</li>
+                  </ul>
+               </div>
+               <div class="comparison-item active-list">
+                  <div class="our_logo mobile_hide">  <img src="img/logo.svg" alt="Logo"></div>
+                  <div class="our_logo show-desktop">  <img src="img/witelogo.png" alt="Logo"></div>
+                  <ul>
+                     <li class="list_item ">
+                        <span class="check"><img src="img/check.svg" alt="check"></span>
+                     </li>
+                     <li class="list_item ">
+                        <span class="check"><img src="img/check.svg" alt="check"></span>
+                     </li>
+                     <li class="list_item ">
+                        <span class="check"><img src="img/check.svg" alt="check"></span>
+                     </li>
+                     <li class="list_item ">
+                        <span class="check"><img src="img/check.svg" alt="check"></span>
+                     </li>
+                     <li class="list_item ">
+                        <span class="check"><img src="img/check.svg" alt="check"></span>
+                     </li>
+                     <li class="list_item ">
+                        <span class="check"><img src="img/check.svg" alt="check"></span>
+                     </li>
+                     <li class="list_item ">
+                        <span class="check"><img src="img/check.svg" alt="check"></span>
+                     </li>
+                  </ul>
+               </div>
+               <div class="comparison-item">
+                  <h3>Media Buying</h3>
+                  <ul>
+                     <li class="list_item cross"><img src="img/cross.svg" alt="cross"></li>
+                     <li class="list_item check"><img src="img/check.svg" alt="cross"></li>
+                     <li class="list_item cross"><img src="img/cross.svg" alt="cross"></li>
+                     <li class="list_item cross"><img src="img/cross.svg" alt="cross"></li>
+                     <li class="list_item check"><img src="img/check.svg" alt="cross"></li>
+                     <li class="list_item check"><img src="img/check.svg" alt="cross"></li>
+                     <li class="list_item cross"><img src="img/cross.svg" alt="cross"></li>
+                  </ul>
+               </div>
+               <div class="comparison-item">
+                  <h3>New Ad Creatives</h3>
+                  <ul>
+                     <li class="list_item cross"><img src="img/cross.svg" alt="cross"></li>
+                     <li class="list_item check"><img src="img/check.svg" alt="cross"></li>
+                     <li class="list_item cross"><img src="img/cross.svg" alt="cross"></li>
+                     <li class="list_item cross"><img src="img/cross.svg" alt="cross"></li>
+                     <li class="list_item check"><img src="img/check.svg" alt="cross"></li>
+                     <li class="list_item cross"><img src="img/cross.svg" alt="cross"></li>
+                     <li class="list_item check"><img src="img/check.svg" alt="cross"></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="call_action_compar">
+               <a href="contact-us.html" class="call_to_btn"><span class="text_call_btn">Contact Us<span> </a>
+               <ul class="benefits">
+                  <li>
+                     <svg xmlns="http://www.w3.org/2000/svg" width="17" height="19" viewBox="0 0 17 19" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.10303 17.9452C6.55703 17.9452 6.03803 17.6842 5.70203 17.2322L1.06903 11.0102C0.472027 10.2102 0.616027 9.06122 1.39003 8.44422C2.16403 7.82622 3.27403 7.97522 3.87003 8.77622L6.90203 12.8472L13.005 2.05222C13.498 1.17922 14.581 0.886223 15.424 1.39622C16.267 1.90622 16.551 3.02722 16.058 3.89922L8.63003 17.0392C8.33303 17.5652 7.80303 17.9032 7.21603 17.9422C7.17803 17.9452 7.14003 17.9452 7.10303 17.9452Z" fill="#009E8E"/>
+                     </svg>
+                     Results-driven frameworks
+                  </li>
+                  <li>
+                     <svg xmlns="http://www.w3.org/2000/svg" width="17" height="19" viewBox="0 0 17 19" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.10303 17.9452C6.55703 17.9452 6.03803 17.6842 5.70203 17.2322L1.06903 11.0102C0.472027 10.2102 0.616027 9.06122 1.39003 8.44422C2.16403 7.82622 3.27403 7.97522 3.87003 8.77622L6.90203 12.8472L13.005 2.05222C13.498 1.17922 14.581 0.886223 15.424 1.39622C16.267 1.90622 16.551 3.02722 16.058 3.89922L8.63003 17.0392C8.33303 17.5652 7.80303 17.9032 7.21603 17.9422C7.17803 17.9452 7.14003 17.9452 7.10303 17.9452Z" fill="#009E8E"/>
+                     </svg>
+                     Quick turnaround
+                  </li>
+                  <li>
+                     <svg xmlns="http://www.w3.org/2000/svg" width="17" height="19" viewBox="0 0 17 19" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.10303 17.9452C6.55703 17.9452 6.03803 17.6842 5.70203 17.2322L1.06903 11.0102C0.472027 10.2102 0.616027 9.06122 1.39003 8.44422C2.16403 7.82622 3.27403 7.97522 3.87003 8.77622L6.90203 12.8472L13.005 2.05222C13.498 1.17922 14.581 0.886223 15.424 1.39622C16.267 1.90622 16.551 3.02722 16.058 3.89922L8.63003 17.0392C8.33303 17.5652 7.80303 17.9032 7.21603 17.9422C7.17803 17.9452 7.14003 17.9452 7.10303 17.9452Z" fill="#009E8E"/>
+                     </svg>
+                     Increase CVR, AOV and LTV
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </section>
+      <!-- Comparison MVMT Solution End-->
+      <!-- Why Choose Solution Start-->
+      <section class="choose-container ongoing_color">
+         <h2>We capture your untapped revenue</h2>
+         <p> Find out why our clients trust us to run their strategy.</p>
+         <div class="features">
+            <div class="feature">
+               <img class="why_img_icon" src="img/business.png">
+               <p>Tailored business strategies designed for growth</p>
+            </div>
+            <div class="feature">
+               <img class="why_img_icon" src="img/support.png">
+               <p>Dedicated support at every stage of the process</p>
+            </div>
+            <div class="feature">
+               <img class="why_img_icon" src="img/Comprehensive.png">
+               <p>Comprehensive, end-to-end business solutions</p>
+            </div>
+            <div class="feature">
+               <img class="why_img_icon" src="img/development.png">
+               <p>Effective for businesses at any stage of development</p>
+            </div>
+         </div>
+      </section>
+      <!-- Why Choose Solution Start-->
+      <!-- Testimonials Solution Start-->
+      <section class="testimonials ">
+         <div class="testimonials_wrp">
+            <span class="badge">TESTIMONIALS</span>
+            <h2>Together, we can capture your untapped revenue</h2>
+            <p>Find out why our clients trust us to run their CRO.</p>
+            <div class="testimonials-container">
+               <div class="testimonial-card">
+                  <div class="stars">
+                     <span>★</span>
+                     <span>★</span>
+                     <span>★</span>
+                     <span>★</span>
+                     <span>★</span>
+                  </div>
+                  <h4>Sarah Lewis</h4>
+                  <p><strong>They understood exactly what I was struggling with</strong></p>
+                  <p>Digital MVMT’s A/B testing has been a dream come true for us. They don’t just guess what works, they test everything! Thanks to their data-driven approach, we’ve optimized our website and ads for maximum conversions. The results are beyond what we had hoped for!</p>
+                  <a href="#" class="read-more">Read More</a>
+               </div>
+               <div class="testimonial-card">
+                  <div class="stars">
+                     <span>★</span>
+                     <span>★</span>
+                     <span>★</span>
+                     <span>★</span>
+                     <span>★</span>
+                  </div>
+                  <h4>Ava Brooks</h4>
+                  <p><strong>Excited to launch thanks to their support</strong></p>
+                  <p>The service was amazing! The team helped me every step of the way, and now I’m ready to launch my brand. I truly appreciate all their help.</p>
+                  <a href="#" class="read-more">Read More</a>
+               </div>
+               <div class="testimonial-card">
+                  <div class="stars">
+                     <span>★</span>
+                     <span>★</span>
+                     <span>★</span>
+                     <span>★</span>
+                     <span>★</span>
+                  </div>
+                  <h4>James Lawson</h4>
+                  <p><strong>Above-and-beyond customer service</strong></p>
+                  <p>The customer service was outstanding! I got top-notch support for everything I needed, and they made my LLC application process smooth and stress-free. Thank you all so much!</p>
+                  <a href="#" class="read-more">Read More</a>
+               </div>
+               <div class="testimonial-card">
+                  <div class="stars">
+                     <span>★</span>
+                     <span>★</span>
+                     <span>★</span>
+                     <span>★</span>
+                     <span>★</span>
+                  </div>
+                  <h4>Michael Carter</h4>
+                  <p><strong>Couldn’t have done it without them</strong></p>
+                  <p>Their help was absolutely essential in getting my business off the ground. I can’t imagine where we’d be without MVMT’s support!</p>
+                  <a href="#" class="read-more">Read More</a>
+               </div>
+               <div class="testimonial-card">
+                  <div class="stars">
+                     <span>★</span>
+                     <span>★</span>
+                     <span>★</span>
+                     <span>★</span>
+                     <span>★</span>
+                  </div>
+                  <h4>Olivia Bennett</h4>
+                  <p><strong>Exactly the support I needed</strong></p>
+                  <p>Digital MVMT provided the perfect support when I needed it most. The representative was truly passionate about their work, which made all the difference. I would highly recommend working with them!</p>
+                  <a href="#" class="read-more">Read More</a>
+               </div>
+               <div class="testimonial-card">
+                  <div class="stars">
+                     <span>★</span>
+                     <span>★</span>
+                     <span>★</span>
+                     <span>★</span>
+                     <span>★</span>
+                  </div>
+                  <h4>Mason Clarke</h4>
+                  <p><strong>Professional, insightful, and easy to work with</strong></p>
+                  <p>Working with Digital MVMT made everything so much easier! Their team was not only professional but also a pleasure to collaborate with. They took care of everything seamlessly, making the entire process stress-free. I wouldn’t hesitate to return as a client and would gladly recommend their services to others.</p>
+                  <a href="#" class="read-more">Read More</a>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Testimonials Solution End-->
+      <!-- Body Part End-->
+      <!-- Footer Start-->
+      <footer class="footer">
+         <div class="container_wrp">
+            <div class="footer-logo">
+               <img src="img/Footerlogo.png" alt="Logo">
+            </div>
+            <hr>
+            <div class="footer-columns">
+               <div class="footer-column">
+                  <h4>Company</h4>
+                  <ul>
+                     <li><a href="about.html">About</a></li>
+                     <li><a href="contact-us.html">Contact Us</a></li>
+                  </ul>
+               </div>
+               <div class="footer-column">
+                  <h4>Solutions</h4>
+                  <ul>
+                     <li><a href="landing-page.html">Design</a></li>
+                     <li><a href="ongoing.html">Ongoing CRO</a></li>
+                     <li><a href="Set-Up.html">Set Up</a></li>
+                     <li><a href="Manage.html">Manage</a></li>
+                     <li><a href="Grow.html">Grow</a></li>
+                  </ul>
+               </div>
+               <div class="footer-column">
+                  <h4>Legal</h4>
+                  <ul>
+                     <li><a href="terms-conditions">Terms and Conditions</a></li>
+                     <li><a href="privacy-policy">Privacy Policy</a></li>
+                  </ul>
+               </div>
+            </div>
+            <hr>
+            <div class="footer-bottom">
+               &copy; 2025 Digital MVMT. All rights reserved.
+            </div>
+         </div>
+      </footer>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+      <script type="text/javascript">
+         $(document).ready(function() {
+             $('.menu_navigate').on('click', function(event) {
+                 event.stopPropagation(); // Prevent click from reaching document
+                 $('.menu_mobile_show').toggleClass('on').toggle(); // Toggle class and show/hide
+             });
+         
+             $(document).on('click touchend', function(event) {
+                 if (!$(event.target).closest('.menu_mobile_show, .menu_navigate').length) {
+                     $('.menu_mobile_show').hide().removeClass('on');
+                 }
+             });
+         });
+         
+      </script>
+      <script>
+         $(".slick-carousel-ads").slick({
+          speed: 5000,
+         autoplay: true,
+         autoplaySpeed: 0,
+         cssEase: 'linear',
+          slidesToShow: 5,
+         slidesToScroll: 1,
+          infinite: true,
+           dots: false,           // Show navigation dots
+          arrows: false, 
+          swipeToSlide: false,
+         centerMode: true,
+          focusOnSelect: false,
+          responsive: [
+                  {
+                    breakpoint: 750,
+                    settings: {
+                      slidesToShow: 3,
+                    }
+                  },
+                  {
+                    breakpoint: 480,
+                    settings: {
+                      slidesToShow: 2,
+                    }
+                  }
+                  ]
+         });
+          
+      </script>
+   </body>
 </html>

@@ -179,8 +179,9 @@ ul.benefits.hidden-mb {
 	position: absolute;
 	background-color: white;
 	min-width: 200px;
-	box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
 	z-index: 1;
+	border: 1px solid #E1E6EF;
+	background: #FFF;
 }
 
 .dropdown-content a {
@@ -188,9 +189,12 @@ ul.benefits.hidden-mb {
 	padding: 5px 20px;
 	color: #293241;
 	text-decoration: none;
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    border-bottom: 1px solid #E1E6EF;
+    background: #FFF;
+    padding: 10px;
 }
 
 .dropdown-content a:hover {
@@ -241,9 +245,24 @@ button.menu_button {
 	max-width: 73%;
 }
 
+.heading_bn{
+	max-width: 822px;
+}
 .content_sub p,
 .content_sub a {
 	margin-bottom: 50px;
+}
+.banner_innerpage .content_sub p,
+.banner_innerpage .content_sub a {
+	margin-bottom: 18px;
+}
+.banner-content.banner_innerpage {
+    padding: 81px 0px 40px 0px;
+}
+.banner_innerpage .content_sub p{
+font-size: var(--font-size-16, 16px);
+font-weight: var(--font-weight-400, 400);
+line-height: var(--line-height-28, 28px); /* 175% */
 }
 
 .banner-image img {
@@ -399,7 +418,7 @@ a.btn:after {
 
 .head_title {
 	border-bottom: 1px solid #F0F1F1;
-	padding: 14px 15px;
+	padding: 8px 15px;
 	margin: unset;
 	display: flex;
 	justify-content: space-between;
@@ -452,35 +471,59 @@ span.icon.profile_icon {
 /* Banner Css end */
 /* Slides ads  Start*/
 
-
-.slick-carousel-ads .slick-carousel {
-	width: auto;
-	margin: 60px 50px 50px;
+section.add_section {
+    padding: 32px 0px;
 }
 
-
-.slick-carousel-ads .slick-prev:before,
-.slick-carousel-ads .slick-next:before {
-	display: none;
+.grid-container {
+    width: 1420px;
+    margin: 0 auto;
 }
-
-.slick-carousel-ads .slick-dots {
-	bottom: -30px;
+.gridslid {
+    display: flex;
+    gap: 21.25px;
+    justify-content: center;
 }
-
-.slick-carousel-ads .slick-track {
-	display: flex !important;
-	gap: 50px !important;
+.item-list {
+    border-radius: 11.736px;
+    text-align: center;
+    padding: 20px 10px;
+    width: 221.019px;
 }
-
-.slick-carousel-ads img.image_ads {
-	width: 100%;
+.item-list p {
+    margin-top: 10px;
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 17.603px;
+    font-weight: 600;
+    line-height: 27.383px;
 }
-
-section.marquee_wrp {
-	padding: 40px 0px !important;
+.item-tag2 {
+    border-radius: 11.736px;
+    background: linear-gradient(180deg, #C6F2E5 0%, #E7F7F3 100%);
 }
-
+.item-tag3 {
+    border-radius: 11.736px;
+    background: linear-gradient(180deg, #DFE777 0%, #F1F4CD 100%);
+}
+.item-tag4 {
+    border-radius: 11.736px;
+    background: linear-gradient(180deg, #FFE3BF 0%, #FFF8EF 100%);
+}
+.item-tag5 {
+    border-radius: 11.736px;
+    background: linear-gradient(180deg, #FFE3E7 0%, #FFF5F6 100%);
+}
+.item-tag6 {
+    border-radius: 11.736px;
+    background: linear-gradient(180deg, #DBCEE8 0%, #F4EFF9 100%);
+}
+.item-tag1 {
+    border-radius: 11.736px;
+    background: linear-gradient(180deg, #9BCBFF 0%, #C7E2FF 100%);
+    text-align: center;
+    padding: 20px;
+}
 /* Slides ads  End*/
 
 /* Why Choose us Start */
@@ -1176,7 +1219,7 @@ a.call_to_btn span {
 .testimonials h2 {
 	font-size: 48px;
 	color: #000;
-	font-weight: 700;
+	font-weight: 600;
 	line-height: 40px;
 	margin: 20px 0px;
 }
@@ -1828,6 +1871,10 @@ ul.solution_item li {
 	margin-top: 54px;
 	text-align: end;
 }
+.grow_page_color ul.business_item {
+    max-width: 1210px;
+    
+}
 
 .card_btn span.text_call_btn {
 	width: 355px;
@@ -2196,6 +2243,18 @@ ul.cro_solution_item.setup_item {
 .grow_page_color {
 	padding: 20px 20px;
 }
+.grow_page_color .setup_business .cro_solution_list {
+    width: 1326px;
+    margin: 0 auto;
+}
+.grow_page_color ul.cro_solution_item li {
+    padding: 30px 20px;
+}
+.grow_page_color ul.cro_solution_item.setup_item {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: unset;
+    margin-bottom: 20px;
+}
 
 .grow_page_color .team_wrp {
 	padding: 30px 0px;
@@ -2211,7 +2270,12 @@ ul.cro_solution_item.setup_item {
 .grow_page_bg ul.business_item li {
 	justify-content: start;
 }
-
+ul.business_item img {
+		    width: 22.92px;
+		    height: 22.92px;
+		    aspect-ratio: 34.92 / 34.92;
+		    object-fit: cover;
+		}
 .grow_page_bg {
 	background-image: url(img/grow-hero.png);
 	background-size: cover;
@@ -2363,6 +2427,76 @@ section.your_team.manage_page_color ul.specialists_slides {
 	.hidden-mb {
 		display: none !important;
 	}
+	.grow_page_color ul.business_item {
+	    max-width: unset;
+	    margin: 0 auto;
+	    justify-content: space-between;
+	}
+	
+	.item-list p {
+	    font-size: 14.653px;
+	    line-height: 22.794px;
+	}
+	.heading_bn{
+		max-width: 100%;
+	}
+	section.add_section{
+		padding: 32px 15px;
+	}
+	.grid-container {
+        width: 100%;
+        overflow-x: auto; /* Enable horizontal scrolling */
+        white-space: nowrap;
+        padding: 10px 0px;
+    }
+
+    .gridslid {
+        display: flex;
+        gap: 20px;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        width: 1183px;
+        justify-content: left;
+        margin-bottom: 10px;
+    }
+
+    .item-list {
+        flex: 0 0 auto;
+        width: 180px; /* Adjust width for smaller screens */
+        scroll-snap-align: center;
+    }
+   /* Scrollbar for WebKit Browsers (Chrome, Safari, Edge) */
+	.gridslid::-webkit-scrollbar {
+	    height: 10px; /* Adjust thickness */
+	    border-radius: 13px !important;
+	    background-color: #e0e0e0 !important; /* Light grey background */
+	}
+
+	/* Scrollbar thumb (the draggable part) */
+	.gridslid::-webkit-scrollbar-thumb {
+	    background-color: #5974FF !important; /* Your custom color */
+	    border-radius: 13px !important;
+	}
+
+	/* Scrollbar thumb on hover */
+	.gridslid::-webkit-scrollbar-thumb:hover {
+	    background-color: #425acc !important;
+	}
+
+	/* Scrollbar track (background area) */
+	.gridslid::-webkit-scrollbar-track {
+	    background: #e0e0e0 !important; /* Light grey track */
+	    border-radius: 13px !important;
+	}
+
+	/* Firefox Scrollbar */
+	.gridslid {
+	    scrollbar-width: thin; /* Make scrollbar thinner */
+	    scrollbar-color: #5974FF #e0e0e0; /* Thumb and track color */
+	}
+
 
 	section.marquee_wrp {
 		padding: 10px 0px !important;
@@ -2370,7 +2504,7 @@ section.your_team.manage_page_color ul.specialists_slides {
 
 	.menu_mobile_show .head_menu {
 		flex-direction: column;
-		gap: 5px;
+		gap: 0px;
 
 	}
 
@@ -2385,6 +2519,10 @@ section.your_team.manage_page_color ul.specialists_slides {
 		font-weight: 400;
 		line-height: 20px;
 		text-decoration: unset;
+		border-bottom: 1px solid #E1E6EF;
+        background: #FFF;
+        padding: 10px;
+
 	}
 
 	.slick-carousel-ads .slick-track {
@@ -2632,6 +2770,10 @@ section.your_team.manage_page_color ul.specialists_slides {
 		vertical-align: super;
 		margin-left: 11px;
 	}
+	.grow_page_color .setup_business .cro_solution_list {
+    width: 100%;
+	}
+
 
 	.benefit_item {
 		padding: 10px 0px;
@@ -3353,6 +3495,7 @@ section.your_team.manage_page_color ul.specialists_slides {
 			grid-template-rows: repeat(3, 150px);
 		}
 
+		
 		.grow_page_color .comparison-item.active-list ul li {
 			padding: 32px;
 		}
@@ -3367,6 +3510,7 @@ section.your_team.manage_page_color ul.specialists_slides {
 			background-color: white;
 			box-shadow: unset;
 			z-index: 1;
+			border: unset;
 		}
 
 		.grow_list_comp .list_four li.list_item {

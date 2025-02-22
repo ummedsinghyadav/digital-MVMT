@@ -2444,11 +2444,28 @@ section.your_team.manage_page_color ul.specialists_slides {
 		padding: 32px 15px;
 	}
 	.grid-container {
-        width: 100%;
-        overflow-x: auto; /* Enable horizontal scrolling */
-        white-space: nowrap;
-        padding: 10px 0px;
-    }
+	        width: 100%;
+	        overflow-x: auto; /* Enable horizontal scrolling */
+	        white-space: nowrap;
+	        padding: 10px 0px;
+	}
+	.grid-container::-webkit-scrollbar-track {
+	    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	    border-radius: 13px;
+	    background-color: #D9E3E6;
+	}
+	
+	.grid-container::-webkit-scrollbar {
+	    background-color: #D9E3E6;
+	    border-radius: 13px;
+	    height:6px;
+	}
+	
+	.grid-container::-webkit-scrollbar-thumb {
+	    border-radius: 13px;
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+		background-color: #5974FF;
+	}
 
     .gridslid {
         display: flex;

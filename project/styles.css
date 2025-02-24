@@ -9,7 +9,6 @@
 	--border-radius: 5px;
 	--white-color: #fff;
 	--landing-color-bedge: #0178FC;
-
 }
 
 /* Reset and Global Styles */
@@ -2818,7 +2817,7 @@ section.your_team.manage_page_color ul.specialists_slides {
 	}
 
 	.service_wrp p {
-		font-size: 16px;
+		font-size: 15px;
 		line-height: 28px;
 	}
 

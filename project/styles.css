@@ -1032,24 +1032,50 @@ section.service_section.lading_pattern {
 	text-align: center;
 }
 
-.check,
-.cross {
+.comparison-list.comparison-tale li.list_item {
+    height: 80px !important;
+    align-items: center;
+    margin: unset !important;
+    padding: unset !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.comparison-list.comparison-tale .check .bg_border_color,
+.comparison-list.comparison-tale .cross .bg_border_color {
 	width: 40px;
 	height: 40px;
 	padding: 10px !important;
 	border-radius: 51%;
-	margin: 36px;
 	list-style: none;
 	background: rgba(255, 143, 143, 0.33);
 }
 
-.check {
-	padding: 7px !important;
-	background: #ffffff;
+.comparison-list.comparison-tale h3 {
+    height: 80px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.comparison-list.comparison-tale li.list_item {
+    height: 80px !important;
+    align-items: center;
+    margin: unset !important;
+    padding: unset !important;
+}
+.comparison-tale .comparison-item {	
+	width: 25%;
+}
+.comparison-list.comparison-tale .check .bg_border_color {
+    border-radius: 9999px;
+    background: #FFF;
 }
 
 .comparison-item.active-list ul li span {
-	margin: 0px;
+    margin: 0px;
+    border-radius: 9999px;
+    background: #FFF;
 }
 
 .comparison-item.active-list {
@@ -1345,6 +1371,15 @@ footer.footer::before {
 	background-size: contain;
 	background-position: bottom left;
 	bottom: 0;
+}
+section.your_team.lading_pattern {
+    background-color: #F4F7FE;
+}
+section.testimonials.lading_pattern {
+    background-color: #F4F7FE;
+}
+section.choose-containe.lading_patternr {
+    background-color: #F4F7FE;
 }
 
 .footer hr {
@@ -2422,12 +2457,22 @@ section.your_team.manage_page_color ul.specialists_slides {
 /*Leagal Page  CSS*/
 
 section.leagal_page_wrp {
-    width: 1300px;
+    width: 100%;
+    max-width: 1100px;
     margin: 0 auto;
 }
 section.leagal_page_wrp ol {
     padding-left: 41px;
     margin-top: 30px;
+}
+section.leagal_page_wrp ol a {
+    color: #000;
+    font-family: 'Open Sans';
+    font-size: 19px;
+    font-style: normal;
+    line-height: 34px;
+    text-decoration: unset;
+    font-weight: 600;
 }
 
 /* Adjusting for screens up to 1200px (Laptops & Tablets in Landscape) */
@@ -2473,6 +2518,11 @@ section.leagal_page_wrp ol {
 	.hidden-mb {
 		display: none !important;
 	}
+	.comparison-list.comparison-tale h3 {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+}
 	section.leagal_page_wrp {
 	    width: 100%;
 	    margin: 0 auto;
@@ -2492,6 +2542,7 @@ section.leagal_page_wrp ol {
 	.heading_bn{
 		max-width: 100%;
 	}
+
 	section.add_section{
 		padding: 32px 15px;
 	}
@@ -2737,9 +2788,13 @@ section.leagal_page_wrp ol {
 	}
 
 	.comparison-item ul li {
-		padding: 27px 0px;
-		font-size: 12px;
-	}
+        padding: 0px 0px;
+        font-size: 12px;
+        height: 80px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
 
 	.comparison-list {
 		padding: 0px 20px;
@@ -3407,7 +3462,7 @@ section.leagal_page_wrp ol {
 		}
 
 		.croxcheck_list .comparison-item ul li {
-			padding: 23px 0px;
+			padding: 0px 0px;
 			font-size: 12px;
 		}
 

@@ -9,6 +9,7 @@
 	--border-radius: 5px;
 	--white-color: #fff;
 	--landing-color-bedge: #0178FC;
+
 }
 
 /* Reset and Global Styles */
@@ -274,13 +275,15 @@ line-height: var(--line-height-28, 28px); /* 175% */
 	display: inline-block;
 	background-color: var(--secondary-color);
 	color: white;
-	padding: 4px 33.67px 4px 23.67px;
+	padding: 4px 33.67px 4px 33.67px;
 	font-size: 14px;
 	border-radius: 4px;
 	background: #051773;
 	box-shadow: 0px 2px 7px 0px rgba(13, 34, 59, 0.08);
 }
-
+.home_page .badge {
+	font-weight: 700;
+}
 .benefits {
 	list-style: none;
 	padding: 0;
@@ -707,7 +710,22 @@ a.call_to_btn span {
 	position: relative;
 	overflow: hidden;
 }
+.hero-section.lading_pattern {
+	margin: 0px 0px;
 
+}
+.title_wrp img {
+    width: 35px;
+    height: 35px;
+    flex-shrink: 0;
+}
+
+section.section_bgcolor.lading_pattern {
+    padding-bottom: unset;
+}
+section.service_section.lading_pattern {
+    background: #DCF6FF;
+}
 .hero-section::before {
 	content: "";
 	position: absolute;
@@ -1367,7 +1385,7 @@ footer.footer {
 	font-size: 15px;
 	font-style: normal;
 	font-weight: 400;
-	line-height: normal;
+	line-height: 10px;
 	margin-bottom: 13px;
 	display: inline-flex;
 
@@ -1473,7 +1491,7 @@ footer.footer {
 }
 
 .about_heading_hed p {
-	width: 618px;
+	width: 748px;
 	color: #374151;
 	text-align: center;
 	font-size: 16px;
@@ -2173,6 +2191,14 @@ section.marquee_wrp {
 	list-style: disc;
 }
 
+
+.manage_page_color .cro_solution_list {
+    width: 1161px;
+}
+
+.manage_page_color ul.business_item {
+    margin-bottom: 20px;
+}
 .setup_business .cro_solution_list {
 	width: 827px;
 	margin: 0 auto;
@@ -2211,6 +2237,9 @@ section.marquee_wrp {
 
 .manage_page_color span.badge {
 	background: #7865E9;
+	font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
 }
 
 .marketing-imgtext li {
@@ -2348,8 +2377,16 @@ ul.business_item p {
 
 .grow_page_color span.badge {
 	background: #C148CE;
+	font-weight: 700;
 }
-
+.grow_page_color .benefits li {
+    color: #374151;
+    font-weight: 400;
+}
+.grow_page_color .heading_hed h2 {
+    font-size: 48px;
+    font-weight: 600;
+}
 .grow_page_color .number_step:before {
 	border-color: #C148CE !important;
 }
@@ -2381,6 +2418,16 @@ section.your_team.manage_page_color ul.specialists_slides {
 
 .show {
 	display: block !important;
+}
+/*Leagal Page  CSS*/
+
+section.leagal_page_wrp {
+    width: 1300px;
+    margin: 0 auto;
+}
+section.leagal_page_wrp ol {
+    padding-left: 41px;
+    margin-top: 30px;
 }
 
 /* Adjusting for screens up to 1200px (Laptops & Tablets in Landscape) */
@@ -2426,12 +2473,18 @@ section.your_team.manage_page_color ul.specialists_slides {
 	.hidden-mb {
 		display: none !important;
 	}
+	section.leagal_page_wrp {
+	    width: 100%;
+	    margin: 0 auto;
+	}
 	.grow_page_color ul.business_item {
 	    max-width: unset;
 	    margin: 0 auto;
 	    justify-content: space-between;
 	}
-	
+	.manage_page_color {
+	    padding: 15px 10px;
+	}
 	.item-list p {
 	    font-size: 14.653px;
 	    line-height: 22.794px;
@@ -2454,6 +2507,9 @@ section.your_team.manage_page_color ul.specialists_slides {
 	    background-color: #D9E3E6;
 	}
 	
+	.manage_page_color .cro_solution_list {
+	    padding: unset !important;
+	}
 	.grid-container::-webkit-scrollbar {
 	    background-color: #D9E3E6;
 	    border-radius: 13px;
@@ -2812,8 +2868,11 @@ section.your_team.manage_page_color ul.specialists_slides {
 	.testimonials_wrp h2,
 	.heading_hed h2,
 	.service_wrp h2 {
-		font-weight: 600;
+		font-weight: 700;
 		font-size: 30px;
+	}
+	.testimonials_wrp h2{
+		font-weight: 700;
 	}
 
 	.service_wrp p {

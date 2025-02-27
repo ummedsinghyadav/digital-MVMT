@@ -19,7 +19,7 @@
    </head>
    <body>
       <!-- Header Section Start-->
-      <!-- Header Section Start-->
+       <!-- Header Section Start-->
       <header class="header">
          <div class="header_wrp hidden-mb ">
             <div class="logo_menu">
@@ -29,13 +29,13 @@
                <div class="head_menu">
                   <div class="dropdown">
                      <button class="menu_button"><span>Solutions</span> <img src="img/drop.svg"> </button>
-                     <div class="dropdown-content">
-                        <a href="Set-Up.html">Set Up</a>
-                        <a href="Manage.html">Manage</a>
-                        <a href="Grow.html">Grow</a>
-                        <a href="landing-page.html">Landing Page Design</a>
-                        <a href="ongoing.html">Ongoing CRO</a>
-                     </div>
+                        <div class="dropdown-content">
+                           <a href="Set-Up.html">Set Up</a>
+                           <a href="Manage.html">Manage</a>
+                           <a href="Grow.html">Grow</a>
+                           <a href="landing-page.html">Landing Page Design</a>
+                           <a href="ongoing.html">Ongoing CRO</a>
+                        </div>
                   </div>
                   <a href="about.html" class="header_link">About Us</a>
                </div>
@@ -53,11 +53,12 @@
             <div class="contact_us_btn">
             <a href="contact-us.html" class="call_to_btn">Contact Us </a>
             </div>
+
             <div class="menu_navigate">
                <img class="site_logo" src="img/Button-Img.svg" alt="Digital MVMT Logo">
             </div>
          </div>
-       <div class='menu_mobile_show'>
+         <div class='menu_mobile_show'>
             <div class="head_menu">
                <a href="about.html" class="header_link menu_anch">
                   <span class="menu_fex">About Us</span></a>
@@ -205,8 +206,9 @@
             <div class="footer-bottom">
                &copy; 2025 Digital MVMT. All rights reserved.
             </div>
+            <div class="menu_overlay"></div> 
          </div>
-          <div class="menu_overlay"></div> 
+          
       </footer>
       <!-- Footer End-->
       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -226,27 +228,25 @@
          
       </script>
        <script type="text/javascript">
-         $(document).ready(function() {
-             $('.menu_navigate').on('click', function(event) {
-                 event.stopPropagation(); 
-                 $('.menu_mobile_show, .menu_overlay').toggleClass('on').toggle();
-             });
+$(document).ready(function() {
+    // Toggle mobile menu and overlay
+    $('.menu_navigate').on('click', function(event) {
+        event.stopPropagation();
+        $('.menu_mobile_show, .menu_overlay').toggleClass('onos').toggle();
+    });
 
-             $(document).on('click touchend', function(event) {
-                 if (!$(event.target).closest('.menu_mobile_show, .menu_navigate').length) {
-                     $('.menu_mobile_show, .menu_overlay').hide().removeClass('on');
-                 }
-             });
-         });
-         
-      </script>
-        <script type="text/javascript">
-    $(document).ready(function() {
+    // Close menu and overlay when clicking outside
+    $(document).on('click touchend', function(event) {
+        if (!$(event.target).closest('.menu_mobile_show, .menu_navigate').length) {
+            $('.menu_mobile_show, .menu_overlay').hide().removeClass('on');
+        }
+    });
+
+    // Dropdown inside mobile menu
     $(".drop_down_mobile h3").click(function() {
-        $(this).next(".dropdown-content").stop(true, true).slideToggle(600); // 600ms for smooth open/close
+        $(this).next(".dropdown-content").stop(true, true).slideToggle(600);
     });
 });
-
-      </script>
+</script>
    </body>
 </html>

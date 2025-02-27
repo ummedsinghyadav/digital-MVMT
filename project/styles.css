@@ -4092,7 +4092,9 @@ a.btn_new.show-desktop {
 		.ongoing_color .testimonials_wrp{
 			padding: 20px 20px;
 		}
-
+.menu_mobile_show.on.onos, .menu_mobile_show.on.on, .menu_mobile_show.on {
+		    display: block !important;
+		}
 		
 	}
 

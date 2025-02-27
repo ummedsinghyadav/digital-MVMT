@@ -2635,7 +2635,34 @@ section.leagal_page_wrp ol a {
 	.hidden-mb {
 		display: none !important;
 	}
-
+	.grow_page_bg {
+	margin: unset !important;
+	padding: unset !important;
+}
+.grow_page_bg ul.benefits {
+    border: unset;
+}
+.grow_page_bg .banner-content h1 {
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 43.75px;
+    letter-spacing: -1.75px;
+}
+.grow_page_color .heading_hed h2 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+}
+.grow_page_bg {
+	background-image: unset;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: unset;
+	padding: 70px 0px;
+}
 	a.call_to_btn2 {
     width: 322px;
     height: 55px;
@@ -3189,6 +3216,7 @@ a.call_to_btn2:after {
 		.container {
 			padding: 15px;
 		}
+
 		section.howit-works.ongoing_color .heading_hed h2,
 		section.howit-works.ongoing_color .howit_item h3 {
 		    font-size: 30px;
@@ -3318,10 +3346,25 @@ a.call_to_btn2:after {
 		.grow_page_color .solution_card h3 {
 			font-size: 30px;
 			line-height: 38px;
+			
+		}
+		.grow_page_color .service_wrp h2{
+			margin-bottom: 20px !important;
 		}
 
 		.grow_page_color .solution_card {
-			padding: 30px;
+			padding: 40px;
+		}
+		.grow_page_color .comparison-list.comparison-tale {
+	    padding: unset;
+	}
+			.grow_page_color .solution_card.manage_text_p h3 {
+		    color: #FFF;
+		    font-family: "Open Sans";
+		    font-size: 22px;
+		    font-style: normal;
+		    font-weight: 600;
+		    line-height: 28px;
 		}
 
 		.setup_business .cro_solution_list {
@@ -3358,7 +3401,7 @@ a.call_to_btn2:after {
 		}
 
 		.grow_page_color .marketing-container {
-			padding: 35px 14px 0px 14px;
+			padding: 35px 24px 0px 24px;
 			flex-direction: column;
 		}
 

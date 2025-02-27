@@ -57,18 +57,23 @@
                <img class="site_logo" src="img/Button-Img.svg" alt="Digital MVMT Logo">
             </div>
          </div>
-         <div class='menu_mobile_show'>
+       <div class='menu_mobile_show'>
             <div class="head_menu">
-               <a href="about.html" class="header_link">About Us</a>
-               <h3>Solutions</h3>
-               <div class="dropdown-content">
-                  <a href="Set-Up.html">Set Up</a>
-                  <a href="Manage.html">Manage</a>
-                  <a href="Grow.html">Grow</a>
-                  <a href="landing-page.html">Landing Page Design</a>
-                  <a href="ongoing.html">Ongoing CRO</a>
+               <a href="about.html" class="header_link menu_anch">
+                  <span class="menu_fex">About Us</span></a>
+               <div class="drop_down_mobile">
+                  <h3><span>Solutions </span><span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="10" viewBox="0 0 13 10" fill="none">
+                    <path d="M6.26197 9.52574C6.11221 9.52574 5.97181 9.49792 5.84076 9.44227C5.70972 9.38662 5.58804 9.29102 5.47572 9.15549L0.308886 2.9622C0.102962 2.71536 0 2.40121 0 2.01974C0 1.63827 0.102962 1.32412 0.308886 1.07728C0.51481 0.830448 0.776896 0.707031 1.09514 0.707031C1.41339 0.707031 1.67548 0.830448 1.8814 1.07728L6.26197 6.32812L10.6425 1.07728C10.8485 0.830448 11.1106 0.707031 11.4288 0.707031C11.747 0.707031 12.0091 0.830448 12.2151 1.07728C12.421 1.32412 12.5239 1.63827 12.5239 2.01974C12.5239 2.40121 12.421 2.71536 12.2151 2.9622L7.04823 9.15549C6.93591 9.29013 6.81422 9.38572 6.68318 9.44227C6.55214 9.49881 6.41174 9.52664 6.26197 9.52574Z" fill="#161616"/>
+                  </svg></span></h3>
+                  <div class="dropdown-content" style="display: none;">
+                     <a href="Set-Up.html">Set Up</a>
+                     <a href="Manage.html">Manage</a>
+                     <a href="Grow.html">Grow</a>
+                     <a href="landing-page.html">Landing Page Design</a>
+                     <a href="ongoing.html">Ongoing CRO</a>
+                  </div>
                </div>
-               <a href="contact-us.html">Contact</a>
+               <a href="contact-us.html" class="menu_anch"> <span class="menu_fex">Contact </span></a>
             </div>
          </div>
       </header>
@@ -137,16 +142,16 @@
                <ul class="services_item">
                   <li>
                      <strong>11</strong>
-                     <p>experience
+                     <p>years experience
                      <p>
                   </li>
                   <li>
                      <strong>3,500+</strong><br>
-                     <p>served </p>
+                     <p>clients served </p>
                   </li>
                   <li>
                      <strong>1Bn+</strong><br>
-                     <p>captured </p>
+                     <p>captured audience </p>
                   </li>
                   <li>
                      <strong>400+</strong>
@@ -201,6 +206,7 @@
                &copy; 2025 Digital MVMT. All rights reserved.
             </div>
          </div>
+          <div class="menu_overlay"></div> 
       </footer>
       <!-- Footer End-->
       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -218,6 +224,29 @@
              });
          });
          
+      </script>
+       <script type="text/javascript">
+         $(document).ready(function() {
+             $('.menu_navigate').on('click', function(event) {
+                 event.stopPropagation(); 
+                 $('.menu_mobile_show, .menu_overlay').toggleClass('on').toggle();
+             });
+
+             $(document).on('click touchend', function(event) {
+                 if (!$(event.target).closest('.menu_mobile_show, .menu_navigate').length) {
+                     $('.menu_mobile_show, .menu_overlay').hide().removeClass('on');
+                 }
+             });
+         });
+         
+      </script>
+        <script type="text/javascript">
+    $(document).ready(function() {
+    $(".drop_down_mobile h3").click(function() {
+        $(this).next(".dropdown-content").stop(true, true).slideToggle(600); // 600ms for smooth open/close
+    });
+});
+
       </script>
    </body>
 </html>

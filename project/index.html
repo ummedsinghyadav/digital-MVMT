@@ -765,28 +765,26 @@
             });
          });
       </script>
-      <script type="text/javascript">
-         $(document).ready(function() {
-             $('.menu_navigate').on('click', function(event) {
-                 event.stopPropagation(); 
-                 $('.menu_mobile_show, .menu_overlay').toggleClass('on').toggle();
-             });
+     <script type="text/javascript">
+$(document).ready(function() {
+    // Toggle mobile menu and overlay
+    $('.menu_navigate').on('click', function(event) {
+        event.stopPropagation();
+        $('.menu_mobile_show, .menu_overlay').toggleClass('on').toggle();
+    });
 
-             $(document).on('click touchend', function(event) {
-                 if (!$(event.target).closest('.menu_mobile_show, .menu_navigate').length) {
-                     $('.menu_mobile_show, .menu_overlay').hide().removeClass('on');
-                 }
-             });
-         });
-         
-      </script>
-      <script type="text/javascript">
-    $(document).ready(function() {
+    // Close menu and overlay when clicking outside
+    $(document).on('click touchend', function(event) {
+        if (!$(event.target).closest('.menu_mobile_show, .menu_navigate').length) {
+            $('.menu_mobile_show, .menu_overlay').hide().removeClass('on');
+        }
+    });
+
+    // Dropdown inside mobile menu
     $(".drop_down_mobile h3").click(function() {
-        $(this).next(".dropdown-content").stop(true, true).slideToggle(600); // 600ms for smooth open/close
+        $(this).next(".dropdown-content").stop(true, true).slideToggle(600);
     });
 });
-
-      </script>
+</script>
    </body>
 </html>

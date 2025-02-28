@@ -64,6 +64,17 @@ section {
     z-index: 99; /* Ensure it's behind the menu but above other content */
 }
 
+
+.cro .solution_list ul li img {
+    max-width: 25px;
+    margin-right: 6px;
+}
+
+.cro  ul.solution_item li {
+	display: flex;
+}
+
+
 /* Mobile menu */
 .menu_mobile_show {
     position: absolute;
@@ -3089,6 +3100,10 @@ a.call_to_btn2:after {
 		border-radius: 12px;
 	}
 
+	.homepage-page .benefits_wrp {
+		padding: 40px 10px 30px;
+	}
+
 	.benefits_wrp h2 {
 		color: #000;
 		text-align: center;
@@ -3118,11 +3133,13 @@ a.call_to_btn2:after {
 		text-align: start;
 		gap: 0px;
 		width: unset;
-		  margin: 0px 23px;
-    margin-top: 50px;
+		margin: 0px 23px;
+    	margin-top: 50px;
 	}
 	
-
+	.homepage-page .benefits_list {
+    	margin-top: 40px;
+	}
 	.benefit_item h3 {
 		text-align: left;
 		margin: unset;
@@ -4138,7 +4155,9 @@ a.btn_new.show-desktop {
 		.ongoing_color .testimonials_wrp{
 			padding: 20px 20px;
 		}
-
+		section.about_us_bn.banner .at_banner_image.width-50 {
+		    margin-top: 20px;
+		}
 		
 	}
 
@@ -4147,3 +4166,19 @@ a.btn_new.show-desktop {
 		display: none;
 		/* Initially hidden on desktop */
 	}
+
+@media screen and (min-width:768px){
+	body.setup-page a.call_to_btn.hidden-mb.setup-btn {
+	    width: 450px;
+	}
+
+	body.setup-page a.call_to_btn.hidden-mb.setup-btn span.text_call_btn {
+	    width: 100%;
+	}
+
+	body.setup-page .solution_card .card_btn {
+	    text-align: right;
+	    text-align: -webkit-right;
+	    margin-top: 20px;
+	}
+}

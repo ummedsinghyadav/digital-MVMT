@@ -4172,12 +4172,11 @@ a.btn_new.show-desktop {
 		/* Initially hidden on desktop */
 	}
 
-@media screen and (min-width:768px){
-	body.setup-page a.call_to_btn.hidden-mb.setup-btn {
+	body.setup-page .setup-btn {
 	    width: 450px;
 	}
 
-	body.setup-page a.call_to_btn.hidden-mb.setup-btn span.text_call_btn {
+	body.setup-page .setup-btn span.text_call_btn {
 	    width: 100%;
 	}
 
@@ -4186,4 +4185,3 @@ a.btn_new.show-desktop {
 	    text-align: -webkit-right;
 	    margin-top: 20px;
 	}
-}

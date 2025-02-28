@@ -437,11 +437,25 @@ a.call_to_btn2:after {
 	background-repeat: no-repeat;
 	background-position: center;
 	display: flex;
-width: 54.41px;
-height: 54.41px;
-justify-content: center;
-align-items: center;
-flex-shrink: 0;
+	width: 54.41px;
+	height: 54.41px;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
+}
+
+body.setup-page .setup-btn {
+    width: 450px;
+}
+
+body.setup-page .setup-btn span.text_call_btn {
+    width: 100%;
+}
+
+body.setup-page .card_btn {
+    text-align: right;
+    text-align: -webkit-right;
+    margin-top: 20px;
 }
 
 span.action_btn,
@@ -4139,9 +4153,6 @@ a.btn_new.show-desktop {
 			display: block !important;
 			/* Show slider */
 		}
-		.service_card{
-
-		}
 	    .setup_page_color span.badge {
             font-size: 10px;
             font-weight: 600;
@@ -4165,23 +4176,6 @@ a.btn_new.show-desktop {
 		}
 		
 	}
-
-	/* Desktop View: Hide slider and show grid */
 	.service_slider {
 		display: none;
-		/* Initially hidden on desktop */
-	}
-
-	body.setup-page .setup-btn {
-	    width: 450px;
-	}
-
-	body.setup-page .setup-btn span.text_call_btn {
-	    width: 100%;
-	}
-
-	body.setup-page .solution_card .card_btn {
-	    text-align: right;
-	    text-align: -webkit-right;
-	    margin-top: 20px;
 	}

@@ -596,6 +596,7 @@ span.icon.profile_icon {
 }
 
 /* Banner Css end */
+
 /* Slides ads  Start*/
 
 section.add_section {
@@ -1253,7 +1254,6 @@ section.service_section.lading_pattern {
 	font-weight: bold;
 	color: #333;
 	font-weight: 400;
-
 }
 
 .marketing-image {
@@ -1435,7 +1435,6 @@ section.service_section.lading_pattern {
 	color: #4F4E4E;
 	font-weight: 400;
 	line-height: 23.455px;
-	/* 133.333% */
 }
 
 .testimonial-card p {
@@ -1448,7 +1447,6 @@ section.service_section.lading_pattern {
 	font-size: 17.591px;
 	font-weight: 400;
 	line-height: 23.455px;
-	/* 133.333% */
 	text-decoration: none;
 }
 
@@ -1560,7 +1558,6 @@ footer.footer {
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 20px;
-	/* 142.857% */
 }
 
 .bg_image_footer {
@@ -1568,8 +1565,8 @@ footer.footer {
 	top: 0;
 	right: 0;
 }
-
 /* Footer End */
+
 /* About Us  */
 .about_us_bn {
 	background: linear-gradient(0deg, #FFF 46.37%, #B6DCFF 100%);
@@ -1700,14 +1697,12 @@ ul.services_item strong {
 	font-size: 30px;
 	font-weight: 600;
 	line-height: 36px;
-	/* 120% */
 }
 
 ul.services_item p {
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 24px;
-	/* 150% */
 }
 
 ul.services_item li {
@@ -1917,17 +1912,17 @@ section.howit-works.lading_pattern {
 	background-color: var(--white-color);
 }
 .landing_card ul.solution_item li p {
-		    color: #FFF;
-		    font-family: "Open Sans";
-		    font-size: 20px;
-		    font-style: normal;
-		    font-weight: 700;
-		    line-height: 24px;
-		}
-		.landing_card ul.solution_item li {
-		    display: flex;
-		    gap: 10px;
-		}
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+.landing_card ul.solution_item li {
+    display: flex;
+    gap: 10px;
+}
 .lading_pattern .benefits_wrp h2 {
 	font-weight: 600;
 }
@@ -2345,10 +2340,10 @@ ul.business_item li {
 }
 
 .setup_page_color .marketing-text p {
-		    font-size: var(--font-size-16, 16px);
-		    font-weight: var(--font-weight-400, 400);
-		    line-height: var(--line-height-28, 28px);
-		}
+    font-size: var(--font-size-16, 16px);
+    font-weight: var(--font-weight-400, 400);
+    line-height: var(--line-height-28, 28px);
+}
 
 section.marquee_wrp {
 	padding: unset;
@@ -2481,11 +2476,11 @@ ul.cro_solution_item.setup_item {
 	justify-content: start;
 }
 ul.business_item img {
-		    width: 22.92px;
-		    height: 22.92px;
-		    aspect-ratio: 34.92 / 34.92;
-		    object-fit: cover;
-		}
+    width: 22.92px;
+    height: 22.92px;
+    aspect-ratio: 34.92 / 34.92;
+    object-fit: cover;
+}
 .grow_page_bg {
 	background-image: url(img/grow-hero.png);
 	background-size: cover;
@@ -2665,90 +2660,94 @@ section.leagal_page_wrp ol a {
 	.hidden-mb {
 		display: none !important;
 	}
+	body.setup-page .card_btn {
+	    text-align: center;
+	    text-align: -webkit-center;
+	}
 	.grow_page_bg {
-	margin: unset !important;
-	padding: unset !important;
-}
-.grow_page_bg ul.benefits {
-    border: unset;
-}
-.grow_page_bg .banner-content h1 {
-    font-size: 35px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 43.75px;
-    letter-spacing: -1.75px;
-}
-.grow_page_color .heading_hed h2 {
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 40px;
-}
-.grow_page_bg {
-	background-image: unset;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	margin: unset;
-	padding: 70px 0px;
-}
-	a.call_to_btn2 {
-    width: 322px;
-    height: 55px;
-    flex-shrink: 0;
-}
-a.call_to_btn2:after {
-    width: 41.725px;
-    height: 41.725px;
-    justify-content: center;
-    align-items: center;
-}
-	.comparison-list.comparison-tale h3 {
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 16px;
-}
+		margin: unset !important;
+		padding: unset !important;
+	}
+	.grow_page_bg ul.benefits {
+	    border: unset;
+	}
+	.grow_page_bg .banner-content h1 {
+	    font-size: 35px;
+	    font-style: normal;
+	    font-weight: 700;
+	    line-height: 43.75px;
+	    letter-spacing: -1.75px;
+	}
+	.grow_page_color .heading_hed h2 {
+	    font-size: 30px;
+	    font-style: normal;
+	    font-weight: 600;
+	    line-height: 40px;
+	}
+	.grow_page_bg {
+		background-image: unset;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		margin: unset;
+		padding: 70px 0px;
+	}
+		a.call_to_btn2 {
+	    width: 322px;
+	    height: 55px;
+	    flex-shrink: 0;
+	}
+	a.call_to_btn2:after {
+	    width: 41.725px;
+	    height: 41.725px;
+	    justify-content: center;
+	    align-items: center;
+	}
+		.comparison-list.comparison-tale h3 {
+	    font-size: 12px;
+	    font-weight: 600;
+	    line-height: 16px;
+	}
 
-.mobile_set .service_card ul {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-.mobile_set .slick-dots li.slick-active button:before {
-    opacity: 1;
-    color: #0178FB !important;
-}
-.mobile_set .slick-dots li {
-    width: 11px !important;
-    height: 11px !important;
-    margin: 0 3px !important;
-}
-.services_top {
-    padding: 20px 0px 0px 0px;
-    min-height: 183px;
-}
+	.mobile_set .service_card ul {
+	    display: flex;
+	    flex-direction: column;
+	    gap: 10px;
+	}
+	.mobile_set .slick-dots li.slick-active button:before {
+	    opacity: 1;
+	    color: #0178FB !important;
+	}
+	.mobile_set .slick-dots li {
+	    width: 11px !important;
+	    height: 11px !important;
+	    margin: 0 3px !important;
+	}
+	.services_top {
+	    padding: 20px 0px 0px 0px;
+	    min-height: 183px;
+	}
 
-.mobile_set .slick-dots li button {
-    color: #D9D9D9 !important;
-}
-.comparison-item ul li span {
-    width: 28px;
-    height: 28px;
-}
-.about_heading_hed {
-    margin-top: unset;
-    margin-bottom: 50px;
-}
-.comparison-list.comparison-tale .check .bg_border_color, .comparison-list.comparison-tale .cross .bg_border_color {
-    width: 32px;
-    height: 32px;
-}
+	.mobile_set .slick-dots li button {
+	    color: #D9D9D9 !important;
+	}
+	.comparison-item ul li span {
+	    width: 28px;
+	    height: 28px;
+	}
+	.about_heading_hed {
+	    margin-top: unset;
+	    margin-bottom: 50px;
+	}
+	.comparison-list.comparison-tale .check .bg_border_color, .comparison-list.comparison-tale .cross .bg_border_color {
+	    width: 32px;
+	    height: 32px;
+	}
 	.marketing-text p{
-	color: #374151;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 28px; 
+		color: #374151;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 28px; 
 	}
 	.home_marketing .marketing-text ul li {
 	    margin: 10px 0;
@@ -2781,10 +2780,10 @@ a.call_to_btn2:after {
 		padding: 32px 15px;
 	}
 	.grid-container {
-	        width: 100%;
-	        overflow-x: auto; /* Enable horizontal scrolling */
-	        white-space: nowrap;
-	        padding: 10px 0px;
+        width: 100%;
+        overflow-x: auto; /* Enable horizontal scrolling */
+        white-space: nowrap;
+        padding: 10px 0px;
 	}
 	.grid-container::-webkit-scrollbar-track {
 	    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
@@ -2854,7 +2853,6 @@ a.call_to_btn2:after {
 	    scrollbar-color: #5974FF #e0e0e0; /* Thumb and track color */
 	}
 
-
 	section.marquee_wrp {
 		padding: 10px 0px !important;
 	}
@@ -2864,7 +2862,6 @@ a.call_to_btn2:after {
 		gap: 0px;
 
 	}
-
 
 	.menu_mobile_show .head_menu h3,
 	.menu_mobile_show .head_menu a {
@@ -2942,8 +2939,6 @@ a.call_to_btn2:after {
 
 	.mobile_header a.call_to_btn:after {
 		content: unset !important;
-		 !i;
-		 !;
 	}
 
 	.contact_us_btn a.call_to_btn {
@@ -3082,6 +3077,7 @@ a.call_to_btn2:after {
 		gap: 40px;
 		grid-template-columns: repeat(auto-fit, minmax(143px, 2fr));
 	}
+
 	section.service_section.lading_pattern{
 		background: unset;
 	}
@@ -3168,7 +3164,7 @@ a.call_to_btn2:after {
 		margin-left: 11px;
 	}
 	.grow_page_color .setup_business .cro_solution_list {
-    width: 100%;
+    	width: 100%;
 	}
 
 
@@ -3246,13 +3242,13 @@ a.call_to_btn2:after {
 		font-size: 16px;
 		line-height: 28px;
 	}
+}
 
-	/* Adjusting for screens up to 480px (Phones) */
-	@media screen and (max-width: 480px) {
+/* Adjusting for screens up to 480px (Phones) */
+@media screen and (max-width: 480px) {
 		.container {
 			padding: 15px;
 		}
-
 		section.howit-works.ongoing_color .heading_hed h2,
 		section.howit-works.ongoing_color .howit_item h3 {
 		    font-size: 30px;
@@ -3269,16 +3265,13 @@ a.call_to_btn2:after {
 		    padding: 20px;
 		    margin-top: 30px;
 		}
-
-
 	    section.marketing_wrp.ongoing_color .marketing-container {
 		    padding: 40px;
 		}
 		 section.service_section.ongoing_color.profit_growth .solution_card{
 		 	padding: 40px;
 		 	margin: unset;
-		 }
-		
+		}
 		section.howit-works.ongoing_color {
 		    padding: 20px !important;
 		}
@@ -3300,7 +3293,6 @@ a.call_to_btn2:after {
 		.lading_pattern .banner-content h1 {
 		    margin: 10px 0px;
 		}
-	
 		ul.solution_item li p {
 		    font-family: "Open Sans";
 		    font-size: 20px;
@@ -3311,30 +3303,25 @@ a.call_to_btn2:after {
             flex-direction: column;
             margin-right: 0px;
         }
-
 		.banner {
 			padding: 15px 0 0 0;
 		}
 		.home_page .badge {
 		    font-weight: 600;
 		}
-
 		.banner-content h1 {
 			font-size: 32px;
 			line-height: 40px;
 		}
-
 		.banner-content p {
 			font-size: 15px;
 			line-height: 28px;
 			/* 186.667% */
 		}
-
 		.btn {
 			padding: 8px 16px;
 			font-size: 14px;
 		}
-
 		.card_box {
 			width: 100%;
 			position: relative;
@@ -3345,56 +3332,46 @@ a.call_to_btn2:after {
 			width: 208.194px;
 			padding: 10px;
 		}
-
 		.heading_hed p {
 			color: #374151;
 			font-size: 16px;
 			line-height: 28px;
 		}
-
 		.btn_mobile {
 			text-align: center;
 		}
-
 		ul.benefits.show-desktop {
 			padding: 20px;
 			border-top: 1px solid rgba(0, 0, 0, 0.10);
 			border-bottom: 1px solid rgba(0, 0, 0, 0.10);
 		}
-
 		.howit_item {
 			gap: 20px;
 		}
-
 		.howit_item h3 br,
 		.howit_item p br {
 			display: none;
 		}
-
 		.howit_item h3 {
 			height: unset;
 		}
-
 		section.contact_us {
 			width: 92%;
 		}
-
 		.grow_page_color .solution_card h3 {
 			font-size: 30px;
-			line-height: 38px;
-			
+			line-height: 38px;	
 		}
 		.grow_page_color .service_wrp h2{
 			margin-bottom: 20px !important;
 		}
-
 		.grow_page_color .solution_card {
 			padding: 40px;
 		}
 		.grow_page_color .comparison-list.comparison-tale {
-	    padding: unset;
-	}
-			.grow_page_color .solution_card.manage_text_p h3 {
+		    padding: unset;
+		}
+		.grow_page_color .solution_card.manage_text_p h3 {
 		    color: #FFF;
 		    font-family: "Open Sans";
 		    font-size: 22px;
@@ -3402,11 +3379,9 @@ a.call_to_btn2:after {
 		    font-weight: 600;
 		    line-height: 28px;
 		}
-
 		.setup_business .cro_solution_list {
 			padding: 0px 30px 30px 30px;
 		}
-
 		span.badge {
 			padding: 4px 12px;
 			font-weight: 600;
@@ -3421,117 +3396,92 @@ a.call_to_btn2:after {
             font-weight: 400;
             line-height: 27.097px;
         }
-
 		.grow_page_color .service_wrp h2 {
 			font-size: 24px;
 			font-weight: 600;
 			line-height: 40px;
 			margin-bottom: 0px;
 		}
-
 		.grow_page_color .marketing-image h1 {
 			text-align: left;
 			font-size: 24px;
 			font-weight: 700;
 			line-height: 32px;
 		}
-
 		.grow_page_color .marketing-container {
 			padding: 35px 24px 0px 24px;
 			flex-direction: column;
 		}
-
 		.number_step {
 			width: 48px;
 			height: 48px;
 			font-size: 24px;
 			margin-top: -30px;
 		}
-
 		.manage_page_color ul.cro_solution_item.setup_item {
 			grid-template-columns: repeat(2, 1fr);
 			grid-template-rows: repeat(1, 150px);
 			margin: 27px;
 		}
-
 		.home_page .benefits li {
 			font-weight: 400;
 		}
-
 		.step_content h3 br {
 			display: none
 		}
-
 		.howit_item p {
 			height: unset;
 		}
-
 		.step_content {
 			gap: 10px;
 			width: 100%;
 			min-height: auto !important;
-			 !i;
-			 !;
 		}
-
 		.step_content h3 {
 			height: unset;
 		}
-
 		a.btn.show-desktop {
 			display: inline-flex !important;
 		}
-
 		section.marketing_wrp,
 		section.marquee_wrp {
 			padding: 0;
 		}
-
 		.banner {
 			margin: 0px;
 		}
-
 		ul.benefits.show-desktop {
 			text-align: center;
 			margin-top: 30px;
 		}
-
 		.card_inner_box p {
 			font-size: 9.936px;
 		}
-
 		.content_sub p,
 		.content_sub a {
 			margin-bottom: 0px;
 		}
-
 		.banner-image {
 			text-align: right;
 		}
-
 		.banner-image {
 			width: 100%;
 		}
-
 		.head_title {
 			padding: 0px 11px;
 		}
-
 		.inner_heading p {
 			font-size: 8.694px;
 			letter-spacing: -0.087px;
 		}
-
 		li.list_item_ico .icon {
 			width: 20.493px;
 			height: 20.493px;
 		}
-
 		li.list_item_ico .icon svg {
 			width: 15.493px;
 			height: 15.493px;
 		}
-
 		.top_badge {
 			font-size: 18px;
 			left: auto;
@@ -3541,13 +3491,11 @@ a.call_to_btn2:after {
 			line-height: 23.598px;
 			padding: 10px;
 		}
-
 		ul.card_item {
 			list-style: none;
 			padding: 0 10px;
 			margin: 5px 0px 0px 0px;
 		}
-
 		li.list_item_ico {
 			margin-bottom: 5px;
 			text-align: justify;
@@ -3902,31 +3850,31 @@ a.call_to_btn2:after {
 		    line-height: var(--line-height-28, 28px);
 		}
 		.service_wrp.card_setup_btn .solution_card {
-			    padding: unset;
-			    border: unset;
-			}
-			.solution_inner {
-    padding: 40px;
-}
-.card_setup_btn .card_btn {
+		    padding: unset;
+		    border: unset;
+		}
+		.solution_inner {
+    		padding: 40px;
+		}
+		.card_setup_btn .card_btn {
             margin-top: 0px;
         }
-.solution_inner {
-    padding: 40px;
-    padding-bottom: 20px;
-}
-a.btn_new.show-desktop {
-    background: #E85211;
-    padding: 30px;
-    text-decoration: unset;
-    color: lemonchiffon;
-    font-family: "Open Sans";
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    border-radius: 0px 0px 16px 16px;
-    line-height: 28px;
-}
+		.solution_inner {
+		    padding: 40px;
+		    padding-bottom: 20px;
+		}
+		a.btn_new.show-desktop {
+		    background: #E85211;
+		    padding: 30px;
+		    text-decoration: unset;
+		    color: lemonchiffon;
+		    font-family: "Open Sans";
+		    font-size: 24px;
+		    font-style: normal;
+		    font-weight: 700;
+		    border-radius: 0px 0px 16px 16px;
+		    line-height: 28px;
+		}
 		.marketing-imgtext ul li {
 			list-style: none;
 		}
@@ -3976,8 +3924,6 @@ a.btn_new.show-desktop {
 		    width: 25px;
 		    height: 25px;
 		}
-
-
 
 		section.choose-container.ongoing_color,
 		section.your_team.ongoing_color,
@@ -4115,8 +4061,8 @@ a.btn_new.show-desktop {
 		}
 	}
 
-	/* Adjusting for screens up to 360px (Small Phones) */
-	@media screen and (max-width: 360px) {
+/* Adjusting for screens up to 360px (Small Phones) */
+@media screen and (max-width: 360px) {
 		.banner-content h1 {
 			font-size: 28px;
 		}
@@ -4131,13 +4077,13 @@ a.btn_new.show-desktop {
 		}
 	}
 
-	/* Mobile View: Hide grid and show slider */
-	@media screen and (max-width: 768px) {
-		.service_list {
-			display: none;
-			/* Hide normal grid */
-		}
-		.dropdown-content a {
+/* Mobile View: Hide grid and show slider */
+@media screen and (max-width: 768px) {
+	.service_list {
+		display: none;
+		/* Hide normal grid */
+	}
+	.dropdown-content a {
 	    color: #293241 !important;
 	    font-family: "Open Sans";
 	    font-size: 16px !important;
@@ -4149,33 +4095,33 @@ a.btn_new.show-desktop {
 	    border: unset !important;
 	}
 
-		.service_slider {
-			display: block !important;
-			/* Show slider */
-		}
-	    .setup_page_color span.badge {
-            font-size: 10px;
-            font-weight: 600;
-            line-height: 16px;
-        }
-		section.service_section.ongoing_color .solution_list {
-            flex-direction: column;
-            margin-right: 0px;
-        }
-        section.your_team.ongoing_color {
-		    padding: 30px 16px !important;
-		}
-		section.ongoing_color  .comparison-section{
-			padding: 20px 20px;
-		}
-		.ongoing_color .testimonials_wrp{
-			padding: 20px 20px;
-		}
-		section.about_us_bn.banner .at_banner_image.width-50 {
-		    margin-top: 20px;
-		}
-		
-	}
 	.service_slider {
-		display: none;
+		display: block !important;
+		/* Show slider */
 	}
+    .setup_page_color span.badge {
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 16px;
+    }
+	section.service_section.ongoing_color .solution_list {
+        flex-direction: column;
+        margin-right: 0px;
+    }
+    section.your_team.ongoing_color {
+	    padding: 30px 16px !important;
+	}
+	section.ongoing_color  .comparison-section{
+		padding: 20px 20px;
+	}
+	.ongoing_color .testimonials_wrp{
+		padding: 20px 20px;
+	}
+	section.about_us_bn.banner .at_banner_image.width-50 {
+	    margin-top: 20px;
+	}
+	
+}
+.service_slider {
+	display: none;
+}

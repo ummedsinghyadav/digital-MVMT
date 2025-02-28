@@ -622,58 +622,27 @@
          });
          
       </script>
-      <script>
-         $(".slick-carousel-ads").slick({
-          speed: 5000,
-         autoplay: true,
-         autoplaySpeed: 0,
-         cssEase: 'linear',
-          slidesToShow: 5,
-         slidesToScroll: 1,
-          infinite: true,
-           dots: false,           // Show navigation dots
-          arrows: false, 
-          swipeToSlide: false,
-         centerMode: true,
-          focusOnSelect: false,
-          responsive: [
-                  {
-                    breakpoint: 750,
-                    settings: {
-                      slidesToShow: 3,
-                    }
-                  },
-                  {
-                    breakpoint: 480,
-                    settings: {
-                      slidesToShow: 2,
-                    }
-                  }
-                  ]
-         });
-          
-      </script>
-       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
        <script type="text/javascript">
-$(document).ready(function() {
-    // Toggle mobile menu and overlay
-    $('.menu_navigate').on('click', function(event) {
-        event.stopPropagation();
-        $('.menu_mobile_show, .menu_overlay').toggleClass('onos').toggle();
-    });
+      $(document).ready(function() {
+          // Toggle mobile menu and overlay
+          $('.menu_navigate').on('click', function(event) {
+              event.stopPropagation();
+              $('.menu_mobile_show, .menu_overlay').toggleClass('onos').toggle();
+          });
 
-    // Close menu and overlay when clicking outside
-    $(document).on('click touchend', function(event) {
-        if (!$(event.target).closest('.menu_mobile_show, .menu_navigate').length) {
-            $('.menu_mobile_show, .menu_overlay').hide().removeClass('on');
-        }
-    });
+          // Close menu and overlay when clicking outside
+          $(document).on('click touchend', function(event) {
+              if (!$(event.target).closest('.menu_mobile_show, .menu_navigate').length) {
+                  $('.menu_mobile_show, .menu_overlay').hide().removeClass('on');
+              }
+          });
 
-    // Dropdown inside mobile menu
-    $(".drop_down_mobile h3").click(function() {
-        $(this).next(".dropdown-content").stop(true, true).slideToggle(600);
-    });
-});
+          // Dropdown inside mobile menu
+          $(".drop_down_mobile h3").click(function() {
+              $(this).next(".dropdown-content").stop(true, true).slideToggle(600);
+          });
+      });
 </script>
    </body>
 </html>
